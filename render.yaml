@@ -5,6 +5,11 @@ services:
     runtime: static
     buildCommand: "true"
     staticPublishPath: .
+    routes:
+      # Render clean-URLs serve atlas.html at /atlas and 404 /atlas.html
+      - type: redirect
+        source: /atlas.html
+        destination: /atlas
     headers:
       - path: /assets/*
         name: Cache-Control

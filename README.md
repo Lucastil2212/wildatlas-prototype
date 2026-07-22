@@ -17,7 +17,7 @@ Open `http://localhost:8080`.
 |-------|------|
 | `/` | Product site — 3D configurator, install vs integrate |
 | `/field-node.html` | Full-viewport product image |
-| `/atlas.html` | WildAtlas globe / habitat demo (prototype) |
+| `/atlas` | WildAtlas globe / habitat demo (prototype) |
 
 Business / service requests: **lucas@manticore.email**
 
@@ -44,4 +44,4 @@ Product imagery and schemas live in [`assets/manticore-field-node/`](assets/mant
 
 ## Atlas demo
 
-The original WildAtlas 3D globe prototype remains at `/atlas.html` as a habitat intelligence demo. See `ATTRIBUTION.md` for data credits used there.
+The original WildAtlas 3D globe prototype remains at `/atlas` as a habitat intelligence demo (`atlas.html` redirects there on Render). See `ATTRIBUTION.md` for data credits used there.
