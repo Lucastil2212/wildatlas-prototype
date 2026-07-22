@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0a0c0e" />
+  <meta name="description" content="Install a Manticore Field Node in your habitat — private local-first AI for wildlife observation and habitat monitoring. Or integrate with Manticore data services." />
+  <title>Manticore — Field Node for your habitat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230a0c0e'/%3E%3Ccircle cx='32' cy='32' r='14' fill='none' stroke='%236dff9a' stroke-width='4'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="manticore.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav">
+    <a class="brand" href="/">
+      <strong>Manticore</strong>
+      <span>Field Node</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#install">Install</a>
+      <a href="#data">Data services</a>
+      <a href="#how">How it works</a>
+      <a class="nav-cta" href="#get-started">Get started</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-label="Manticore Field Node">
+      <div class="hero-visual" aria-hidden="true">
+        <img
+          src="assets/manticore-field-node/Manticore-Field-Node.png"
+          alt=""
+          width="2048"
+          height="2048"
+          fetchpriority="high"
+          decoding="async"
+        />
+      </div>
+      <div class="hero-copy">
+        <h1>Install a Field Node <em>in your habitat</em></h1>
+        <p class="hero-lead">Private, local-first wildlife observation and habitat monitoring — or connect to our data services when you want a network.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#install">Install a Field Node</a>
+          <a class="btn btn-ghost" href="#data">Integrate data services</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section band" id="install">
+      <div class="section-inner split">
+        <div class="split-copy">
+          <p class="section-kicker">The product</p>
+          <h2>One rugged node for the place you care about</h2>
+          <p class="section-lead">Mount a Manticore Field Node at the backyard edge, forest trail, greenhouse, or research plot. On-device AI watches, listens, and logs — without shipping your habitat to the cloud.</p>
+          <ul class="point-list">
+            <li>
+              <span class="point-mark" aria-hidden="true"></span>
+              <div>
+                <strong>Wildlife observer</strong>
+                Edge classification for sounds and optional camera events, with confidence and evidence clips kept local.
+              </div>
+            </li>
+            <li>
+              <span class="point-mark" aria-hidden="true"></span>
+              <div>
+                <strong>Habitat monitoring</strong>
+                Environmental sensing plus a signed observation log you can trust later.
+              </div>
+            </li>
+            <li>
+              <span class="point-mark" aria-hidden="true"></span>
+              <div>
+                <strong>Built for the field</strong>
+                Weatherproof enclosure, solar / battery power, Ethernet, and edge inference on a Pi-class core.
+              </div>
+            </li>
+          </ul>
+          <div class="cta-row" style="margin-top: 1.75rem">
+            <a class="btn btn-primary" href="#get-started">Request install</a>
+            <a class="btn btn-ghost" href="field-node.html">View product image</a>
+          </div>
+        </div>
+        <figure class="schema-frame">
+          <img
+            src="assets/manticore-field-node/hardware_schema.png"
+            alt="Manticore Field Node hardware schema: sensors, Pi compute core, power, and field deployment sites"
+            width="1600"
+            height="1200"
+            loading="lazy"
+            decoding="async"
+          />
+        </figure>
+      </div>
+    </section>
+
+    <section class="section band-alt" id="data">
+      <div class="section-inner split reverse">
+        <div class="split-copy">
+          <p class="section-kicker">The service</p>
+          <h2>Integrate when you need the network</h2>
+          <p class="section-lead">Keep ownership of your observations. Sync peer-to-peer when you choose, or plug into Manticore data services for dashboards, aggregation, and habitat intelligence across sites.</p>
+          <ul class="point-list">
+            <li>
+              <span class="point-mark" aria-hidden="true"></span>
+              <div>
+                <strong>Signed observation records</strong>
+                Structured events with species, confidence, location, hashes, and model version — ready for APIs and partners.
+              </div>
+            </li>
+            <li>
+              <span class="point-mark" aria-hidden="true"></span>
+              <div>
+                <strong>PeerWeave sync</strong>
+                Resilient gossip-style exchange between nodes and communities — offline-capable by design.
+              </div>
+            </li>
+            <li>
+              <span class="point-mark" aria-hidden="true"></span>
+              <div>
+                <strong>Optional access layer</strong>
+                Permissions and ownership when you need controlled sharing — without making the cloud mandatory.
+              </div>
+            </li>
+          </ul>
+          <div class="cta-row" style="margin-top: 1.75rem">
+            <a class="btn btn-primary" href="#get-started">Talk about integration</a>
+            <a class="btn btn-ghost" href="atlas.html" target="_blank" rel="noopener noreferrer">Open habitat atlas demo</a>
+          </div>
+        </div>
+        <figure class="schema-frame">
+          <img
+            src="assets/manticore-field-node/software_data_schema.png"
+            alt="Manticore Field Node software and data schema: capture, classify, signed logs, local dashboard, peer sync"
+            width="1600"
+            height="1200"
+            loading="lazy"
+            decoding="async"
+          />
+        </figure>
+      </div>
+    </section>
+
+    <section class="section band" id="how">
+      <div class="section-inner">
+        <p class="section-kicker">Two ways in</p>
+        <h2>Same business. Pick your path.</h2>
+        <p class="section-lead">Whether you place hardware in the wild or wire us into your stack, the outcome is the same: verifiable habitat intelligence you control.</p>
+
+        <div class="paths" role="list">
+          <article class="path" role="listitem">
+            <span class="path-tag">Path A</span>
+            <h3>Install a Field Node</h3>
+            <p>We help you site, mount, and power a node in your habitat. Local dashboard from day one. Your data stays on the device until you decide otherwise.</p>
+            <a class="btn btn-primary" href="#get-started">Start an install</a>
+          </article>
+          <article class="path" role="listitem">
+            <span class="path-tag">Path B</span>
+            <h3>Integrate data services</h3>
+            <p>Connect existing sensors or partner nodes to Manticore observation schemas, sync, and habitat analytics — without replacing the gear you already trust.</p>
+            <a class="btn btn-ghost" href="#get-started">Plan an integration</a>
+          </article>
+        </div>
+
+        <div class="values" aria-label="Product principles">
+          <div class="value">
+            <div class="value-rule" aria-hidden="true"></div>
+            <h3>Private by design</h3>
+            <p>Local-first AI. Your habitat’s recordings and evidence stay with you.</p>
+          </div>
+          <div class="value">
+            <div class="value-rule" aria-hidden="true"></div>
+            <h3>Offline-capable</h3>
+            <p>Works where the trail has more trees than bars — sync when you can.</p>
+          </div>
+          <div class="value">
+            <div class="value-rule" aria-hidden="true"></div>
+            <h3>Verifiable</h3>
+            <p>Cryptographically signed observations for science, stewardship, and partners.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section closing" id="get-started">
+      <div class="section-inner">
+        <p class="section-kicker">Get started</p>
+        <h2>Put a Manticore in the habitat that matters</h2>
+        <p class="section-lead">Tell us where you want to install — or what systems you need to integrate. One product, one service line: Field Nodes and the data layer around them.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="mailto:?subject=Manticore%20Field%20Node%20install&body=Habitat%20%2F%20site%3A%0AUse%20case%3A%0A">Request an install</a>
+          <a class="btn btn-ghost" href="mailto:?subject=Manticore%20data%20services%20integration&body=Systems%20to%20integrate%3A%0ASites%20%2F%20volume%3A%0A">Integrate data services</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span>© Manticore · Field Node · Habitat intelligence</span>
+      <span>
+        <a href="atlas.html" target="_blank" rel="noopener noreferrer">Atlas demo</a>
+        ·
+        <a href="field-node.html">Product shot</a>
+        ·
+        <a href="ATTRIBUTION.md">Attribution</a>
+      </span>
+    </div>
+  </footer>
+</body>
+</html>

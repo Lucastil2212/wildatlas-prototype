@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Manticore Field Node</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0c0e10;
+      --fg: #e8eee9;
+      --muted: #8a9690;
+      --line: rgba(255,255,255,.12);
+      --accent: #6dff9a;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      background: var(--bg);
+      color: var(--fg);
+      font: 600 12px/1.4 "Segoe UI", system-ui, sans-serif;
+      overflow: hidden;
+    }
+
+    .stage {
+      position: fixed;
+      inset: 0;
+      width: 100vw;
+      height: 100vh;
+      height: 100dvh;
+      padding:
+        max(12px, env(safe-area-inset-top))
+        max(12px, env(safe-area-inset-right))
+        max(12px, env(safe-area-inset-bottom))
+        max(12px, env(safe-area-inset-left));
+      display: grid;
+      place-items: center;
+      background:
+        radial-gradient(ellipse at 50% 42%, rgba(109,255,154,.08), transparent 48%),
+        var(--bg);
+    }
+
+    .frame {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      min-width: 0;
+      min-height: 0;
+      display: grid;
+      place-items: center;
+    }
+
+    .frame img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      object-position: center;
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+
+    /* Cover mode: fill the screen, may crop edges */
+    body.mode-cover .frame img {
+      object-fit: cover;
+    }
+
+    .hud {
+      position: fixed;
+      z-index: 2;
+      left: max(14px, env(safe-area-inset-left));
+      right: max(14px, env(safe-area-inset-right));
+      bottom: max(14px, env(safe-area-inset-bottom));
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      justify-content: space-between;
+      pointer-events: none;
+    }
+
+    .hud .meta,
+    .hud .controls {
+      pointer-events: auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .chip {
+      padding: 8px 10px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(8, 10, 12, .72);
+      backdrop-filter: blur(10px);
+      color: var(--muted);
+      font-size: 10px;
+      letter-spacing: .04em;
+    }
+
+    .chip strong { color: var(--fg); font-weight: 750; }
+
+    .controls button {
+      appearance: none;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(8, 10, 12, .78);
+      color: var(--fg);
+      padding: 8px 12px;
+      font: inherit;
+      font-size: 10px;
+      font-weight: 750;
+      letter-spacing: .04em;
+      cursor: pointer;
+      backdrop-filter: blur(10px);
+    }
+
+    .controls button[aria-pressed="true"] {
+      border-color: color-mix(in srgb, var(--accent) 55%, transparent);
+      color: var(--accent);
+    }
+
+    .controls a {
+      color: var(--muted);
+      text-decoration: none;
+      padding: 8px 10px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(8, 10, 12, .72);
+      backdrop-filter: blur(10px);
+      font-size: 10px;
+      font-weight: 750;
+    }
+
+    @media (max-width: 640px) {
+      .chip .detail { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <main class="stage" id="stage">
+    <div class="frame">
+      <img
+        id="hero"
+        src="assets/manticore-field-node/Manticore-Field-Node.png"
+        alt="Manticore Field Node — rugged wildlife observer and habitat monitoring device"
+        decoding="async"
+        fetchpriority="high"
+      />
+    </div>
+  </main>
+
+  <div class="hud">
+    <div class="meta">
+      <span class="chip"><strong>MANTICORE FIELD NODE</strong></span>
+      <span class="chip detail" id="sizeChip">Fitting to viewport…</span>
+    </div>
+    <div class="controls">
+      <button type="button" id="fitBtn" aria-pressed="true">Fit</button>
+      <button type="button" id="fillBtn" aria-pressed="false">Fill</button>
+      <a href="/">Manticore</a>
+      <a href="/#data">Data services</a>
+    </div>
+  </div>
+
+  <script>
+    (() => {
+      const img = document.getElementById("hero");
+      const sizeChip = document.getElementById("sizeChip");
+      const fitBtn = document.getElementById("fitBtn");
+      const fillBtn = document.getElementById("fillBtn");
+      const params = new URLSearchParams(location.search);
+      const src = params.get("src");
+      if (src) img.src = src;
+
+      const setMode = (mode) => {
+        const cover = mode === "cover";
+        document.body.classList.toggle("mode-cover", cover);
+        fitBtn.setAttribute("aria-pressed", String(!cover));
+        fillBtn.setAttribute("aria-pressed", String(cover));
+        try { localStorage.setItem("manticore-image-fit", cover ? "cover" : "contain"); } catch {}
+        updateMetrics();
+      };
+
+      const updateMetrics = () => {
+        const vw = Math.round(window.visualViewport?.width || window.innerWidth);
+        const vh = Math.round(window.visualViewport?.height || window.innerHeight);
+        const nw = img.naturalWidth || 0;
+        const nh = img.naturalHeight || 0;
+        const mode = document.body.classList.contains("mode-cover") ? "fill" : "fit";
+        sizeChip.textContent = nw && nh
+          ? `${vw}×${vh} screen · ${nw}×${nh} image · ${mode}`
+          : `${vw}×${vh} screen · ${mode}`;
+      };
+
+      const saved = (() => {
+        try { return localStorage.getItem("manticore-image-fit"); } catch { return null; }
+      })();
+      setMode(params.get("fit") === "cover" || saved === "cover" ? "cover" : "contain");
+
+      fitBtn.addEventListener("click", () => setMode("contain"));
+      fillBtn.addEventListener("click", () => setMode("cover"));
+      img.addEventListener("load", updateMetrics);
+      window.addEventListener("resize", updateMetrics);
+      window.visualViewport?.addEventListener("resize", updateMetrics);
+      window.visualViewport?.addEventListener("scroll", updateMetrics);
+      updateMetrics();
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,3203 @@
+{
+  "jaguar": {
+    "taxonId": 41970,
+    "matchedName": "Panthera onca",
+    "common": "Jaguar",
+    "photo": "https://static.inaturalist.org/photos/51015966/medium.jpg",
+    "photoCredit": "(c) rdwilcox51, all rights reserved, uploaded by rdwilcox51",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/41970"
+  },
+  "scarlet-macaw": {
+    "taxonId": 19022,
+    "matchedName": "Ara macao",
+    "common": "Scarlet Macaw",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/233350330/medium.jpg",
+    "photoCredit": "(c) Matthew Patchett, some rights reserved (CC BY-NC), uploaded by Matthew Patchett",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/19022"
+  },
+  "harpy-eagle": {
+    "taxonId": 5321,
+    "matchedName": "Harpia harpyja",
+    "common": "Harpy Eagle",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/447085421/medium.jpeg",
+    "photoCredit": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+    "license": "cc-by",
+    "sourceUrl": "https://www.inaturalist.org/taxa/5321"
+  },
+  "leafcutter-ant": {
+    "taxonId": 153974,
+    "matchedName": "Atta cephalotes",
+    "common": "Hairy-headed leafcutter ant",
+    "photo": "https://static.inaturalist.org/photos/249471115/medium.jpg",
+    "photoCredit": "(c) Winsten Slowswakey, all rights reserved, uploaded by Winsten Slowswakey",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/153974"
+  },
+  "river-dolphin": {
+    "taxonId": 41472,
+    "matchedName": "Inia geoffrensis",
+    "common": "Amazon River Dolphin",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/12008956/medium.jpg",
+    "photoCredit": "(c) Kevin Schafer, some rights reserved (CC BY-NC-ND), uploaded by Kevin Schafer",
+    "license": "cc-by-nc-nd",
+    "sourceUrl": "https://www.inaturalist.org/taxa/41472"
+  },
+  "lion": {
+    "taxonId": 41964,
+    "matchedName": "Panthera leo",
+    "common": "Lion",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/9225318/medium.jpg",
+    "photoCredit": "(c) seasav, some rights reserved (CC BY-NC-ND), uploaded by seasav",
+    "license": "cc-by-nc-nd",
+    "sourceUrl": "https://www.inaturalist.org/taxa/41964"
+  },
+  "wildebeest": {
+    "taxonId": 42280,
+    "matchedName": "Connochaetes taurinus",
+    "common": "Common Wildebeest",
+    "photo": "https://static.inaturalist.org/photos/248838951/medium.jpg",
+    "photoCredit": "(c) Muhammad Mahdi Karim, some rights reserved (GFDL)",
+    "license": "gfdl",
+    "sourceUrl": "https://www.inaturalist.org/taxa/42280"
+  },
+  "cheetah": {
+    "taxonId": 41955,
+    "matchedName": "Acinonyx jubatus",
+    "common": "Cheetah",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/57582224/medium.jpg",
+    "photoCredit": "(c) Irene Domhoff, some rights reserved (CC BY-NC), uploaded by Irene Domhoff",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/41955"
+  },
+  "giraffe": {
+    "taxonId": 1510574,
+    "matchedName": "Giraffa tippelskirchi",
+    "common": "Maasai Giraffe",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/102235423/medium.jpg",
+    "photoCredit": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/1510574"
+  },
+  "dung-beetle": {
+    "taxonId": 49094,
+    "matchedName": "Kheper aegyptiorum",
+    "common": "Egyptian Scarab",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/3130499/medium.jpg",
+    "photoCredit": "(c) Udo Schmidt, some rights reserved (CC BY-SA)",
+    "license": "cc-by-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/49094"
+  },
+  "coral-polyp": {
+    "taxonId": 93234,
+    "matchedName": "Acropora cervicornis",
+    "common": "Staghorn Coral",
+    "photo": "https://static.inaturalist.org/photos/164610234/medium.jpg",
+    "photoCredit": "(c) pleahy, all rights reserved",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/93234"
+  },
+  "green-turtle": {
+    "taxonId": 39659,
+    "matchedName": "Chelonia mydas",
+    "common": "Green Sea Turtle",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/197457958/medium.jpg",
+    "photoCredit": "(c) MARC MARTIN SOLA, some rights reserved (CC BY-NC), uploaded by MARC MARTIN SOLA",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/39659"
+  },
+  "clownfish": {
+    "taxonId": 132688,
+    "matchedName": "Amphiprion ocellaris",
+    "common": "Ocellaris Anemonefish",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/106318566/medium.jpg",
+    "photoCredit": "(c) Francois Libert, some rights reserved (CC BY-NC-SA)",
+    "license": "cc-by-nc-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/132688"
+  },
+  "parrotfish": {
+    "taxonId": 112148,
+    "matchedName": "Scarus guacamaia",
+    "common": "Rainbow Parrotfish",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/59818540/medium.jpg",
+    "photoCredit": "(c) Kevin Bryant, some rights reserved (CC BY-NC-SA)",
+    "license": "cc-by-nc-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/112148"
+  },
+  "manta-ray": {
+    "taxonId": 623965,
+    "matchedName": "Mobula alfredi",
+    "common": "Reef Manta Ray",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/241208700/medium.jpg",
+    "photoCredit": "(c) Luis P. B., some rights reserved (CC BY-NC), uploaded by Luis P. B.",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/623965"
+  },
+  "polar-bear": {
+    "taxonId": 41644,
+    "matchedName": "Ursus maritimus",
+    "common": "Polar Bear",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/102785980/medium.jpg",
+    "photoCredit": "(c) Peter K, some rights reserved (CC BY-NC), uploaded by Peter K",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/41644"
+  },
+  "arctic-fox": {
+    "taxonId": 233598,
+    "matchedName": "Vulpes lagopus",
+    "common": "Arctic Fox",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/64217530/medium.jpg",
+    "photoCredit": "(c) Valerie, some rights reserved (CC BY-NC-ND)",
+    "license": "cc-by-nc-nd",
+    "sourceUrl": "https://www.inaturalist.org/taxa/233598"
+  },
+  "walrus": {
+    "taxonId": 41766,
+    "matchedName": "Odobenus rosmarus",
+    "common": "Walrus",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/65857/medium.jpg",
+    "photoCredit": "(c) Charles Young, some rights reserved (CC BY-NC-ND)",
+    "license": "cc-by-nc-nd",
+    "sourceUrl": "https://www.inaturalist.org/taxa/41766"
+  },
+  "svalbard-reindeer": {
+    "taxonId": 42199,
+    "matchedName": "Rangifer tarandus",
+    "common": "Caribou",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/86057375/medium.jpg",
+    "photoCredit": "(c) Bering Land Bridge National Preserve, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "sourceUrl": "https://www.inaturalist.org/taxa/42199"
+  },
+  "atlantic-puffin": {
+    "taxonId": 4504,
+    "matchedName": "Fratercula arctica",
+    "common": "Atlantic Puffin",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/63139388/medium.jpg",
+    "photoCredit": "(c) Paul Steeves, some rights reserved (CC BY-NC), uploaded by Paul Steeves",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/4504"
+  },
+  "giant-tortoise": {
+    "taxonId": 539452,
+    "matchedName": "Chelonoidis niger",
+    "common": "Gal\u00e1pagos Giant Tortoise",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/37748207/medium.jpg",
+    "photoCredit": "(c) John G. Phillips, some rights reserved (CC BY), uploaded by John G. Phillips",
+    "license": "cc-by",
+    "sourceUrl": "https://www.inaturalist.org/taxa/539452"
+  },
+  "marine-iguana": {
+    "taxonId": 35347,
+    "matchedName": "Amblyrhynchus cristatus",
+    "common": "Marine Iguana",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/223675967/medium.jpg",
+    "photoCredit": "(c) Simon Pierce, some rights reserved (CC BY-NC), uploaded by Simon Pierce",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/35347"
+  },
+  "blue-footed-booby": {
+    "taxonId": 3786,
+    "matchedName": "Sula nebouxii",
+    "common": "Blue-footed Booby",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/184079683/medium.jpg",
+    "photoCredit": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/3786"
+  },
+  "galapagos-penguin": {
+    "taxonId": 3815,
+    "matchedName": "Spheniscus mendiculus",
+    "common": "Gal\u00e1pagos Penguin",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/120636083/medium.jpeg",
+    "photoCredit": "(c) William Hull, some rights reserved (CC BY-NC), uploaded by William Hull",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/3815"
+  },
+  "darwin-finch": {
+    "taxonId": 9479,
+    "matchedName": "Geospiza fortis",
+    "common": "Medium Ground-Finch",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/424455194/medium.jpg",
+    "photoCredit": "(c) jack_oldham, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/9479"
+  },
+  "american-alligator": {
+    "taxonId": 26159,
+    "matchedName": "Alligator mississippiensis",
+    "common": "American Alligator",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/446571555/medium.jpg",
+    "photoCredit": "(c) sandiwheeler, some rights reserved (CC BY-NC), uploaded by sandiwheeler",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/26159"
+  },
+  "roseate-spoonbill": {
+    "taxonId": 62529,
+    "matchedName": "Platalea ajaja",
+    "common": "Roseate Spoonbill",
+    "photo": "https://static.inaturalist.org/photos/32776247/medium.jpg",
+    "photoCredit": "(c) drdad, all rights reserved",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/62529"
+  },
+  "manatee": {
+    "taxonId": 46316,
+    "matchedName": "Trichechus manatus",
+    "common": "West Indian Manatee",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/17174106/medium.jpg",
+    "photoCredit": "(c) U.S. Fish and Wildlife Service Headquarters, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "sourceUrl": "https://www.inaturalist.org/taxa/46316"
+  },
+  "anhinga": {
+    "taxonId": 5063,
+    "matchedName": "Anhinga anhinga",
+    "common": "Anhinga",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/195512943/medium.jpg",
+    "photoCredit": "(c) Shiva Shenoy, some rights reserved (CC BY), uploaded by Shiva Shenoy",
+    "license": "cc-by",
+    "sourceUrl": "https://www.inaturalist.org/taxa/5063"
+  },
+  "florida-panther": {
+    "taxonId": 42007,
+    "matchedName": "Puma concolor",
+    "common": "Mountain Lion",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/9834553/medium.jpg",
+    "photoCredit": "(c) pfaucher, some rights reserved (CC BY-NC), uploaded by pfaucher",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/42007"
+  },
+  "bison": {
+    "taxonId": 42408,
+    "matchedName": "Bison bison",
+    "common": "American Bison",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/297923496/medium.jpg",
+    "photoCredit": "no rights reserved, uploaded by Kathlin Simpkins",
+    "license": "cc0",
+    "sourceUrl": "https://www.inaturalist.org/taxa/42408"
+  },
+  "gray-wolf": {
+    "taxonId": 42048,
+    "matchedName": "Canis lupus",
+    "common": "Gray Wolf",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/43410580/medium.jpg",
+    "photoCredit": "(c) Brian Starzomski, some rights reserved (CC BY-NC), uploaded by Brian Starzomski",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/42048"
+  },
+  "grizzly": {
+    "taxonId": 41641,
+    "matchedName": "Ursus arctos",
+    "common": "Brown Bear",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/1491897/medium.jpg",
+    "photoCredit": "(c) Donna Pomeroy, some rights reserved (CC BY-NC), uploaded by Donna Pomeroy",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/41641"
+  },
+  "beaver": {
+    "taxonId": 43794,
+    "matchedName": "Castor canadensis",
+    "common": "American Beaver",
+    "photo": "https://static.inaturalist.org/photos/139683466/medium.jpeg",
+    "photoCredit": "(c) mikeyk730, all rights reserved",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/43794"
+  },
+  "common-raven": {
+    "taxonId": 8010,
+    "matchedName": "Corvus corax",
+    "common": "Common Raven",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/54389687/medium.jpg",
+    "photoCredit": "(c) arbyreed, some rights reserved (CC BY-NC-SA)",
+    "license": "cc-by-nc-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/8010"
+  },
+  "saguaro": {
+    "taxonId": 54449,
+    "matchedName": "Carnegiea gigantea",
+    "common": "saguaro",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/77029090/medium.jpg",
+    "photoCredit": "(c) Marianne Skov Jensen, some rights reserved (CC BY-NC), uploaded by Marianne Skov Jensen",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/54449"
+  },
+  "gila-monster": {
+    "taxonId": 35003,
+    "matchedName": "Heloderma suspectum",
+    "common": "Gila Monster",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/114066575/medium.jpeg",
+    "photoCredit": "(c) Alvaro Monter Pozos, some rights reserved (CC BY-NC), uploaded by Alvaro Monter Pozos",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/35003"
+  },
+  "roadrunner": {
+    "taxonId": 1986,
+    "matchedName": "Geococcyx californianus",
+    "common": "Greater Roadrunner",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/128132945/medium.jpg",
+    "photoCredit": "(c) jefferykarafa, some rights reserved (CC BY-NC), uploaded by jefferykarafa",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/1986"
+  },
+  "lesser-long-nosed-bat": {
+    "taxonId": 41143,
+    "matchedName": "Leptonycteris yerbabuenae",
+    "common": "Lesser Long-nosed Bat",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/3968782/medium.jpg",
+    "photoCredit": "(c) Scott Buckel, some rights reserved (CC BY-NC), uploaded by Scott Buckel",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/41143"
+  },
+  "coyote": {
+    "taxonId": 42051,
+    "matchedName": "Canis latrans",
+    "common": "Coyote",
+    "photo": "https://static.inaturalist.org/photos/10963085/medium.jpg",
+    "photoCredit": "(c) Jorge Velez, all rights reserved, uploaded by Jorge Velez",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/42051"
+  },
+  "resplendent-quetzal": {
+    "taxonId": 20856,
+    "matchedName": "Pharomachrus mocinno",
+    "common": "Resplendent Quetzal",
+    "photo": "https://static.inaturalist.org/photos/208398042/medium.jpg",
+    "photoCredit": "(c) Steve Collins, all rights reserved, uploaded by Steve Collins",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/20856"
+  },
+  "three-wattled-bellbird": {
+    "taxonId": 8847,
+    "matchedName": "Procnias tricarunculatus",
+    "common": "Three-wattled Bellbird",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/213939948/medium.jpg",
+    "photoCredit": "(c) ingrid lc, some rights reserved (CC BY-NC), uploaded by ingrid lc",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/8847"
+  },
+  "emerald-toucanet": {
+    "taxonId": 559387,
+    "matchedName": "Aulacorhynchus prasinus",
+    "common": "Northern Emerald-Toucanet",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/1961793/medium.jpg",
+    "photoCredit": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/559387"
+  },
+  "black-guan": {
+    "taxonId": 2077,
+    "matchedName": "Chamaepetes unicolor",
+    "common": "Black Guan",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/177603688/medium.jpg",
+    "photoCredit": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/2077"
+  },
+  "mantled-howler": {
+    "taxonId": 43436,
+    "matchedName": "Alouatta palliata",
+    "common": "Mantled Howler Monkey",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/187746639/medium.jpeg",
+    "photoCredit": "(c) Cephas, some rights reserved (CC BY-SA)",
+    "license": "cc-by-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/43436"
+  },
+  "hyacinth-macaw": {
+    "taxonId": 18938,
+    "matchedName": "Anodorhynchus hyacinthinus",
+    "common": "Hyacinth Macaw",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/144156185/medium.jpg",
+    "photoCredit": "(c) Paul Donahue, some rights reserved (CC BY-NC), uploaded by Paul Donahue",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/18938"
+  },
+  "jabiru": {
+    "taxonId": 4773,
+    "matchedName": "Jabiru mycteria",
+    "common": "Jabiru",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/578900/medium.jpg",
+    "photoCredit": "(c) David Schenfeld (busy), some rights reserved (CC BY-NC-ND)",
+    "license": "cc-by-nc-nd",
+    "sourceUrl": "https://www.inaturalist.org/taxa/4773"
+  },
+  "toco-toucan": {
+    "taxonId": 18793,
+    "matchedName": "Ramphastos toco",
+    "common": "Toco Toucan",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/63281117/medium.jpg",
+    "photoCredit": "(c) Paul Steeves, some rights reserved (CC BY-NC), uploaded by Paul Steeves",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/18793"
+  },
+  "capybara": {
+    "taxonId": 74442,
+    "matchedName": "Hydrochoerus hydrochaeris",
+    "common": "Capybara",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/91546944/medium.jpg",
+    "photoCredit": "(c) Carlos Sanchez, some rights reserved (CC BY-NC), uploaded by Carlos Sanchez",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/74442"
+  },
+  "giant-otter": {
+    "taxonId": 41845,
+    "matchedName": "Pteronura brasiliensis",
+    "common": "Giant Otter",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/227172098/medium.jpeg",
+    "photoCredit": "(c) markus lilje, some rights reserved (CC BY-NC-ND), uploaded by markus lilje",
+    "license": "cc-by-nc-nd",
+    "sourceUrl": "https://www.inaturalist.org/taxa/41845"
+  },
+  "red-knot": {
+    "taxonId": 3845,
+    "matchedName": "Calidris canutus",
+    "common": "Red Knot",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/198196733/medium.jpeg",
+    "photoCredit": "(c) Miguel A Mejias, PhD., some rights reserved (CC BY-NC), uploaded by Miguel A Mejias, PhD.",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/3845"
+  },
+  "ruddy-turnstone": {
+    "taxonId": 3938,
+    "matchedName": "Arenaria interpres",
+    "common": "Ruddy Turnstone",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/57282715/medium.jpeg",
+    "photoCredit": "(c) John Clough, some rights reserved (CC BY-NC), uploaded by John Clough",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/3938"
+  },
+  "osprey": {
+    "taxonId": 116999,
+    "matchedName": "Pandion haliaetus",
+    "common": "Osprey",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/6903515/medium.jpg",
+    "photoCredit": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/116999"
+  },
+  "semipalmated-sandpiper": {
+    "taxonId": 3862,
+    "matchedName": "Calidris pusilla",
+    "common": "Semipalmated Sandpiper",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/320602640/medium.jpg",
+    "photoCredit": "(c) brian stahls, some rights reserved (CC BY-NC), uploaded by brian stahls",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/3862"
+  },
+  "horseshoe-crab": {
+    "taxonId": 48302,
+    "matchedName": "Limulus polyphemus",
+    "common": "Atlantic Horseshoe Crab",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/186273920/medium.jpg",
+    "photoCredit": "(c) Hans Hillewaert, some rights reserved (CC BY-NC-ND)",
+    "license": "cc-by-nc-nd",
+    "sourceUrl": "https://www.inaturalist.org/taxa/48302"
+  },
+  "african-fish-eagle": {
+    "taxonId": 1505670,
+    "matchedName": "Icthyophaga vocifer",
+    "common": "African Fish-Eagle",
+    "photo": "https://static.inaturalist.org/photos/339871833/medium.jpg",
+    "photoCredit": "(c) Asrat Ayalew Gella, all rights reserved, uploaded by Asrat Ayalew Gella",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/1505670"
+  },
+  "lilac-breasted-roller": {
+    "taxonId": 2269,
+    "matchedName": "Coracias caudatus",
+    "common": "Lilac-breasted Roller",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/8050/medium.jpg",
+    "photoCredit": "(c) Dave Govoni, some rights reserved (CC BY-NC-SA)",
+    "license": "cc-by-nc-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/2269"
+  },
+  "wattled-crane": {
+    "taxonId": 57,
+    "matchedName": "Grus carunculatus",
+    "common": "Wattled Crane",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/702602976/medium.jpg",
+    "photoCredit": "(c) Otherwhere, some rights reserved (CC BY-NC), uploaded by Otherwhere",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/57"
+  },
+  "african-elephant": {
+    "taxonId": 43694,
+    "matchedName": "Loxodonta africana",
+    "common": "African Savanna Elephant",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/93674728/medium.jpg",
+    "photoCredit": "(c) dhfischer, some rights reserved (CC BY), uploaded by dhfischer",
+    "license": "cc-by",
+    "sourceUrl": "https://www.inaturalist.org/taxa/43694"
+  },
+  "hippopotamus": {
+    "taxonId": 42149,
+    "matchedName": "Hippopotamus amphibius",
+    "common": "Common Hippopotamus",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/13896177/medium.jpg",
+    "photoCredit": "(c) Mathias D'haen, some rights reserved (CC BY-NC), uploaded by Mathias D'haen",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/42149"
+  },
+  "kea": {
+    "taxonId": 18941,
+    "matchedName": "Nestor notabilis",
+    "common": "Kea",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/487649966/medium.jpg",
+    "photoCredit": "(c) Ben Ackerley, some rights reserved (CC BY-NC), uploaded by Ben Ackerley",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/18941"
+  },
+  "takahe": {
+    "taxonId": 424597,
+    "matchedName": "Porphyrio hochstetteri",
+    "common": "South Island Takah\u0113",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/487656716/medium.jpg",
+    "photoCredit": "(c) Ben Ackerley, some rights reserved (CC BY-NC), uploaded by Ben Ackerley",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/424597"
+  },
+  "fiordland-penguin": {
+    "taxonId": 3823,
+    "matchedName": "Eudyptes pachyrhynchus",
+    "common": "Fiordland Penguin",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/184024508/medium.jpg",
+    "photoCredit": "(c) Oscar Thomas, some rights reserved (CC BY-NC), uploaded by Oscar Thomas",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/3823"
+  },
+  "nz-fantail": {
+    "taxonId": 244276,
+    "matchedName": "Rhipidura fuliginosa",
+    "common": "New Zealand Fantail",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/463499217/medium.jpg",
+    "photoCredit": "(c) Caiden B, some rights reserved (CC BY-NC), uploaded by Caiden B",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/244276"
+  },
+  "southern-brown-kiwi": {
+    "taxonId": 204465,
+    "matchedName": "Apteryx australis",
+    "common": "Southern Brown Kiwi",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/247172517/medium.jpeg",
+    "photoCredit": "(c) paulinab, some rights reserved (CC BY-NC), uploaded by paulinab",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/204465"
+  },
+  "rhinoceros-hornbill": {
+    "taxonId": 5532,
+    "matchedName": "Buceros rhinoceros",
+    "common": "Rhinoceros Hornbill",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/20302331/medium.jpg",
+    "photoCredit": "(c) Tan Kok Hui, some rights reserved (CC BY-NC), uploaded by Tan Kok Hui",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/5532"
+  },
+  "bornean-orangutan": {
+    "taxonId": 43582,
+    "matchedName": "Pongo pygmaeus",
+    "common": "Bornean Orangutan",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/251457903/medium.jpeg",
+    "photoCredit": "(c) Zoltan BAGOSI, some rights reserved (CC BY-NC), uploaded by Zoltan BAGOSI",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/43582"
+  },
+  "proboscis-monkey": {
+    "taxonId": 43538,
+    "matchedName": "Nasalis larvatus",
+    "common": "Proboscis Monkey",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/336701002/medium.jpg",
+    "photoCredit": "(c) Sergey Pisarevskiy, some rights reserved (CC BY-NC-SA)",
+    "license": "cc-by-nc-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/43538"
+  },
+  "whiteheads-trogon": {
+    "taxonId": 20804,
+    "matchedName": "Harpactes whiteheadi",
+    "common": "Whitehead's Trogon",
+    "photo": "https://static.inaturalist.org/photos/278363253/medium.jpg",
+    "photoCredit": "(c) Rand Rudland, all rights reserved, uploaded by Rand Rudland",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/20804"
+  },
+  "storms-stork": {
+    "taxonId": 4737,
+    "matchedName": "Ciconia stormi",
+    "common": "Storm's Stork",
+    "photo": "https://static.inaturalist.org/photos/49854976/medium.jpg",
+    "photoCredit": "(c) Chien Lee, all rights reserved, uploaded by Chien Lee",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/4737"
+  },
+  "white-throated-toucan": {
+    "taxonId": 18799,
+    "matchedName": "Ramphastos tucanus",
+    "photo": "https://static.inaturalist.org/photos/228084452/medium.jpeg",
+    "photoCredit": "(c) Jose Cueva Santos, all rights reserved, uploaded by Jose Cueva Santos",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/18799"
+  },
+  "hoatzin": {
+    "taxonId": 1626,
+    "matchedName": "Opisthocomus hoazin",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/335722298/medium.jpg",
+    "photoCredit": "no rights reserved, uploaded by Philipp Hoenle",
+    "license": "cc0",
+    "sourceUrl": "https://www.inaturalist.org/taxa/1626"
+  },
+  "poison-dart-frog": {
+    "taxonId": 21141,
+    "matchedName": "Dendrobates tinctorius",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/436934034/medium.jpeg",
+    "photoCredit": "(c) Igor Gerolineto Alves, some rights reserved (CC BY-NC), uploaded by Igor Gerolineto Alves",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/21141"
+  },
+  "spider-monkey": {
+    "taxonId": 43410,
+    "matchedName": "Ateles chamek",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/94752756/medium.jpeg",
+    "photoCredit": "(c) cemango, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/43410"
+  },
+  "blue-morpho": {
+    "taxonId": 81741,
+    "matchedName": "Morpho helenor",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/339607928/medium.jpeg",
+    "photoCredit": "(c) Luis Trinchan, some rights reserved (CC BY-NC), uploaded by Luis Trinchan",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/81741"
+  },
+  "secretarybird": {
+    "taxonId": 117214,
+    "matchedName": "Sagittarius serpentarius",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/116433622/medium.jpeg",
+    "photoCredit": "(c) Jan Ebr &amp; Ivana Ebrov\u00e1, some rights reserved (CC BY), uploaded by Jan Ebr &amp; Ivana Ebrov\u00e1",
+    "license": "cc-by",
+    "sourceUrl": "https://www.inaturalist.org/taxa/117214"
+  },
+  "common-ostrich": {
+    "taxonId": 20526,
+    "matchedName": "Struthio camelus",
+    "photo": "https://static.inaturalist.org/photos/2568822/medium.jpg",
+    "photoCredit": "(c) tlim, all rights reserved, uploaded by tlim",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/20526"
+  },
+  "plains-zebra": {
+    "taxonId": 43335,
+    "matchedName": "Equus quagga",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/335469754/medium.jpg",
+    "photoCredit": "(c) simben, some rights reserved (CC BY-NC-ND), uploaded by simben",
+    "license": "cc-by-nc-nd",
+    "sourceUrl": "https://www.inaturalist.org/taxa/43335"
+  },
+  "marabou-stork": {
+    "taxonId": 201031,
+    "matchedName": "Leptoptilos crumenifer",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/702605686/medium.jpg",
+    "photoCredit": "(c) Otherwhere, some rights reserved (CC BY-NC), uploaded by Otherwhere",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/201031"
+  },
+  "superb-starling": {
+    "taxonId": 14939,
+    "matchedName": "Lamprotornis superbus",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/329009302/medium.jpg",
+    "photoCredit": "(c) Marc Henrion, some rights reserved (CC BY-NC), uploaded by Marc Henrion",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/14939"
+  },
+  "humpback-whale": {
+    "taxonId": 41566,
+    "matchedName": "Megaptera novaeangliae",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/255461843/medium.jpg",
+    "photoCredit": "(c) Wayne and Pam Osborn, some rights reserved (CC BY-NC), uploaded by Wayne and Pam Osborn",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/41566"
+  },
+  "blacktip-reef-shark": {
+    "taxonId": 67964,
+    "matchedName": "Carcharhinus melanopterus",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/608947383/medium.jpg",
+    "photoCredit": "(c) Poseidon\u2019s Adventure, some rights reserved (CC BY-NC), uploaded by Poseidon\u2019s Adventure",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/67964"
+  },
+  "giant-clam": {
+    "taxonId": 114396,
+    "matchedName": "Tridacna gigas",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/238306910/medium.jpg",
+    "photoCredit": "(c) uwkwaj, some rights reserved (CC BY-NC), uploaded by uwkwaj",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/114396"
+  },
+  "threadfin-butterflyfish": {
+    "taxonId": 52457,
+    "matchedName": "Chaetodon auriga",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/14193990/medium.jpg",
+    "photoCredit": "(c) zsispeo, some rights reserved (CC BY-SA)",
+    "license": "cc-by-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/52457"
+  },
+  "indo-pacific-bottlenose": {
+    "taxonId": 41481,
+    "matchedName": "Tursiops aduncus",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/70501058/medium.jpg",
+    "photoCredit": "(c) \u05d8\u05dc \u05e9\u05de\u05e2, some rights reserved (CC BY-SA)",
+    "license": "cc-by-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/41481"
+  },
+  "snowy-owl": {
+    "taxonId": 144594,
+    "matchedName": "Bubo scandiacus",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/150549757/medium.jpg",
+    "photoCredit": "(c) Patrick Randall, some rights reserved (CC BY-NC-SA)",
+    "license": "cc-by-nc-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/144594"
+  },
+  "arctic-tern": {
+    "taxonId": 4449,
+    "matchedName": "Sterna paradisaea",
+    "photo": "https://static.inaturalist.org/photos/282682742/medium.jpeg",
+    "photoCredit": "(c) Sean, all rights reserved, uploaded by Sean",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/4449"
+  },
+  "little-auk": {
+    "taxonId": 4524,
+    "matchedName": "Alle alle",
+    "common": "Dovekie",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/101346159/medium.jpeg",
+    "photoCredit": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+    "license": "cc-by",
+    "sourceUrl": "https://www.inaturalist.org/taxa/4524"
+  },
+  "bearded-seal": {
+    "taxonId": 41720,
+    "matchedName": "Erignathus barbatus",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/309400080/medium.jpg",
+    "photoCredit": "(c) Sebasti\u00e1n Lescano, some rights reserved (CC BY-NC), uploaded by Sebasti\u00e1n Lescano",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/41720"
+  },
+  "ivory-gull": {
+    "taxonId": 4555,
+    "matchedName": "Pagophila eburnea",
+    "photo": "https://static.inaturalist.org/photos/182350159/medium.jpg",
+    "photoCredit": "(c) Steve Collins, all rights reserved",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/4555"
+  },
+  "flightless-cormorant": {
+    "taxonId": 1289603,
+    "matchedName": "Nannopterum harrisi",
+    "photo": "https://static.inaturalist.org/photos/175173911/medium.jpg",
+    "photoCredit": "(c) Cameron Harper, all rights reserved, uploaded by Cameron Harper",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/1289603"
+  },
+  "waved-albatross": {
+    "taxonId": 4143,
+    "matchedName": "Phoebastria irrorata",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/46583649/medium.jpg",
+    "photoCredit": "(c) Douglas J. Long, some rights reserved (CC BY-NC), uploaded by Douglas J. Long",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/4143"
+  },
+  "galapagos-sea-lion": {
+    "taxonId": 41738,
+    "matchedName": "Zalophus wollebaeki",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/486949507/medium.jpg",
+    "photoCredit": "(c) Casey Klebba, some rights reserved (CC BY-SA)",
+    "license": "cc-by-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/41738"
+  },
+  "sally-lightfoot": {
+    "taxonId": 55295,
+    "matchedName": "Grapsus grapsus",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/110627975/medium.jpeg",
+    "photoCredit": "(c) John Sullivan, some rights reserved (CC BY-NC), uploaded by John Sullivan",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/55295"
+  },
+  "lava-heron": {
+    "taxonId": 363698,
+    "matchedName": "Butorides sundevalli",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/248791567/medium.jpeg",
+    "photoCredit": "(c) Joe Girgente, some rights reserved (CC BY-NC), uploaded by Joe Girgente",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/363698"
+  },
+  "great-blue-heron": {
+    "taxonId": 4956,
+    "matchedName": "Ardea herodias",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/65060931/medium.jpg",
+    "photoCredit": "(c) Dan Roach, some rights reserved (CC BY-NC), uploaded by Dan Roach",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/4956"
+  },
+  "wood-stork": {
+    "taxonId": 4742,
+    "matchedName": "Mycteria americana",
+    "photo": "https://static.inaturalist.org/photos/108641164/medium.jpg",
+    "photoCredit": "(c) Jeff Stauffer, all rights reserved, uploaded by Jeff Stauffer",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/4742"
+  },
+  "snail-kite": {
+    "taxonId": 5349,
+    "matchedName": "Rostrhamus sociabilis",
+    "photo": "https://static.inaturalist.org/photos/3492573/medium.jpg",
+    "photoCredit": "(c) John Beatty, all rights reserved",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/5349"
+  },
+  "american-flamingo": {
+    "taxonId": 4257,
+    "matchedName": "Phoenicopterus ruber",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/108374016/medium.jpg",
+    "photoCredit": "(c) Antonio Robles, some rights reserved (CC BY-NC-SA), uploaded by Antonio Robles",
+    "license": "cc-by-nc-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/4257"
+  },
+  "barred-owl": {
+    "taxonId": 19893,
+    "matchedName": "Strix varia",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/359094470/medium.jpg",
+    "photoCredit": "(c) David Yeager, some rights reserved (CC BY-NC), uploaded by David Yeager",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/19893"
+  },
+  "elk": {
+    "taxonId": 204114,
+    "matchedName": "Cervus canadensis",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/115009764/medium.jpg",
+    "photoCredit": "(c) Mark Moschell, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/204114"
+  },
+  "bald-eagle": {
+    "taxonId": 5305,
+    "matchedName": "Haliaeetus leucocephalus",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/341016703/medium.jpeg",
+    "photoCredit": "(c) Addy, some rights reserved (CC BY-NC), uploaded by Addy",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/5305"
+  },
+  "trumpeter-swan": {
+    "taxonId": 6915,
+    "matchedName": "Cygnus buccinator",
+    "photo": "https://static.inaturalist.org/photos/261862450/medium.jpg",
+    "photoCredit": "(c) Declan Troy, all rights reserved, uploaded by Declan Troy",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/6915"
+  },
+  "clarks-nutcracker": {
+    "taxonId": 8520,
+    "matchedName": "Nucifraga columbiana",
+    "photo": "https://static.inaturalist.org/photos/350111806/medium.jpg",
+    "photoCredit": "(c) Many Springs, all rights reserved, uploaded by Many Springs",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/8520"
+  },
+  "pronghorn": {
+    "taxonId": 42429,
+    "matchedName": "Antilocapra americana",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/250039273/medium.jpg",
+    "photoCredit": "(c) Aidan Campos, some rights reserved (CC BY-NC), uploaded by Aidan Campos",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/42429"
+  },
+  "elf-owl": {
+    "taxonId": 20379,
+    "matchedName": "Micrathene whitneyi",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/45691213/medium.jpg",
+    "photoCredit": "(c) Terry Sohl, some rights reserved (CC BY-NC), uploaded by Terry Sohl",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/20379"
+  },
+  "costas-hummingbird": {
+    "taxonId": 6316,
+    "matchedName": "Calypte costae",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/255450373/medium.jpg",
+    "photoCredit": "(c) Grigory Heaton, some rights reserved (CC BY-NC), uploaded by Grigory Heaton",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/6316"
+  },
+  "desert-tortoise": {
+    "taxonId": 40086,
+    "matchedName": "Gopherus agassizii",
+    "photo": "https://static.inaturalist.org/photos/7832596/medium.jpg",
+    "photoCredit": "(c) Henry Fabian, all rights reserved, uploaded by Henry Fabian",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/40086"
+  },
+  "javelina": {
+    "taxonId": 42113,
+    "matchedName": "Pecari tajacu",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/336070139/medium.jpg",
+    "photoCredit": "(c) mickeydylan, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/42113"
+  },
+  "harris-hawk": {
+    "taxonId": 5355,
+    "matchedName": "Parabuteo unicinctus",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/191470/medium.jpg",
+    "photoCredit": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/5355"
+  },
+  "bare-necked-umbrellabird": {
+    "taxonId": 8810,
+    "matchedName": "Cephalopterus glabricollis",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/183196761/medium.jpg",
+    "photoCredit": "(c) Mike Melton, some rights reserved (CC BY-NC), uploaded by Mike Melton",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/8810"
+  },
+  "ocelot": {
+    "taxonId": 41997,
+    "matchedName": "Leopardus pardalis",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/518453211/medium.jpg",
+    "photoCredit": "(c) Marco Silva, some rights reserved (CC BY-NC), uploaded by Marco Silva",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/41997"
+  },
+  "glass-frog": {
+    "taxonId": 134933,
+    "matchedName": "Espadarana prosoblepon",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/167325624/medium.jpg",
+    "photoCredit": "(c) Thomas Shahan, some rights reserved (CC BY-NC), uploaded by Thomas Shahan",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/134933"
+  },
+  "slate-throated-redstart": {
+    "taxonId": 9457,
+    "matchedName": "Myioborus miniatus",
+    "photo": "https://static.inaturalist.org/photos/30145559/medium.jpg",
+    "photoCredit": "(c) kurtongman, all rights reserved, uploaded by kurtongman",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/9457"
+  },
+  "violet-sabrewing": {
+    "taxonId": 5987,
+    "matchedName": "Campylopterus hemileucurus",
+    "photo": "https://static.inaturalist.org/photos/413950545/medium.jpeg",
+    "photoCredit": "(c) salomongp, all rights reserved",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/5987"
+  },
+  "southern-screamer": {
+    "taxonId": 6910,
+    "matchedName": "Chauna torquata",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/249989101/medium.jpg",
+    "photoCredit": "(c) Antonino Gon\u00e7alves Medina, some rights reserved (CC BY-NC), uploaded by Antonino Gon\u00e7alves Medina",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/6910"
+  },
+  "rufescent-tiger-heron": {
+    "taxonId": 5048,
+    "matchedName": "Tigrisoma lineatum",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/21359/medium.jpg",
+    "photoCredit": "(c) Cl\u00c3\u00a1udio Dias Timm, some rights reserved (CC BY-NC-SA)",
+    "license": "cc-by-nc-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/5048"
+  },
+  "yellow-anaconda": {
+    "taxonId": 100714,
+    "matchedName": "Eunectes notaeus",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/221099607/medium.jpg",
+    "photoCredit": "(c) Alfredo Sabaliauskas, some rights reserved (CC BY-NC), uploaded by Alfredo Sabaliauskas",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/100714"
+  },
+  "greater-rhea": {
+    "taxonId": 20512,
+    "matchedName": "Rhea americana",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/68235230/medium.jpeg",
+    "photoCredit": "(c) Martin Arregui, some rights reserved (CC BY-NC), uploaded by Martin Arregui",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/20512"
+  },
+  "crab-eating-fox": {
+    "taxonId": 42087,
+    "matchedName": "Cerdocyon thous",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/34537325/medium.jpeg",
+    "photoCredit": "no rights reserved, uploaded by Diego Car\u00fas",
+    "license": "cc0",
+    "sourceUrl": "https://www.inaturalist.org/taxa/42087"
+  },
+  "black-skimmer": {
+    "taxonId": 4496,
+    "matchedName": "Rynchops niger",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/227666105/medium.jpg",
+    "photoCredit": "(c) Scott, some rights reserved (CC BY-NC), uploaded by Scott",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/4496"
+  },
+  "laughing-gull": {
+    "taxonId": 144514,
+    "matchedName": "Leucophaeus atricilla",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/4196757/medium.jpg",
+    "photoCredit": "(c) Jos\u00e9 Antonio Linage Espinosa, some rights reserved (CC BY-NC), uploaded by Jos\u00e9 Antonio Linage Espinosa",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/144514"
+  },
+  "diamondback-terrapin": {
+    "taxonId": 39836,
+    "matchedName": "Malaclemys terrapin",
+    "photo": "https://static.inaturalist.org/photos/9316497/medium.jpg",
+    "photoCredit": "(c) Chance Feimster, all rights reserved, uploaded by Chance Feimster",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/39836"
+  },
+  "peregrine-falcon": {
+    "taxonId": 4647,
+    "matchedName": "Falco peregrinus",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/212499566/medium.jpg",
+    "photoCredit": "(c) nautiboy, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/4647"
+  },
+  "short-billed-dowitcher": {
+    "taxonId": 3869,
+    "matchedName": "Limnodromus griseus",
+    "photo": "https://static.inaturalist.org/photos/18958336/medium.jpg",
+    "photoCredit": "(c) TroyEcol, all rights reserved, uploaded by TroyEcol",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/3869"
+  },
+  "african-jacana": {
+    "taxonId": 4585,
+    "matchedName": "Actophilornis africanus",
+    "photo": "https://static.inaturalist.org/photos/179809856/medium.jpg",
+    "photoCredit": "(c) Asrat Ayalew Gella, all rights reserved, uploaded by Asrat Ayalew Gella",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/4585"
+  },
+  "malachite-kingfisher": {
+    "taxonId": 144651,
+    "matchedName": "Corythornis cristatus",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/249622920/medium.jpg",
+    "photoCredit": "(c) Marc Henrion, some rights reserved (CC BY-NC), uploaded by Marc Henrion",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/144651"
+  },
+  "saddle-billed-stork": {
+    "taxonId": 4754,
+    "matchedName": "Ephippiorhynchus senegalensis",
+    "photo": "https://static.inaturalist.org/photos/126417092/medium.jpg",
+    "photoCredit": "(c) LYN FRANCEY, all rights reserved, uploaded by LYN FRANCEY",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/4754"
+  },
+  "lechwe": {
+    "taxonId": 42329,
+    "matchedName": "Kobus leche",
+    "photo": "https://static.inaturalist.org/photos/126606859/medium.jpg",
+    "photoCredit": "(c) Joe Tomoleoni, all rights reserved, uploaded by Joe Tomoleoni",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/42329"
+  },
+  "nile-crocodile": {
+    "taxonId": 341972,
+    "matchedName": "Crocodylus niloticus",
+    "photo": "https://static.inaturalist.org/photos/545741360/medium.jpg",
+    "photoCredit": "(c) David Roche, all rights reserved, uploaded by David Roche",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/341972"
+  },
+  "yellow-eyed-penguin": {
+    "taxonId": 3831,
+    "matchedName": "Megadyptes antipodes",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/113537806/medium.jpg",
+    "photoCredit": "(c) Oscar Thomas, some rights reserved (CC BY-NC), uploaded by Oscar Thomas",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/3831"
+  },
+  "kaka": {
+    "taxonId": 18943,
+    "matchedName": "Nestor meridionalis",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/336381381/medium.jpg",
+    "photoCredit": "(c) Ben Ackerley, some rights reserved (CC BY-NC), uploaded by Ben Ackerley",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/18943"
+  },
+  "morepork": {
+    "taxonId": 979817,
+    "matchedName": "Ninox novaeseelandiae",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/415290539/medium.jpg",
+    "photoCredit": "(c) Caiden B, some rights reserved (CC BY-NC), uploaded by Caiden B",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/979817"
+  },
+  "kereru": {
+    "taxonId": 204520,
+    "matchedName": "Hemiphaga novaeseelandiae",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/106296703/medium.jpeg",
+    "photoCredit": "(c) Christopher Stephens, some rights reserved (CC BY-SA), uploaded by Christopher Stephens",
+    "license": "cc-by-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/204520"
+  },
+  "tomtit": {
+    "taxonId": 14175,
+    "matchedName": "Petroica macrocephala",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/219857/medium.jpg",
+    "photoCredit": "(c) Michael, some rights reserved (CC BY-NC-SA)",
+    "license": "cc-by-nc-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/14175"
+  },
+  "bornean-gibbon": {
+    "taxonId": 883484,
+    "matchedName": "Hylobates muelleri",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/53815264/medium.jpg",
+    "photoCredit": "(c) Mike Prince, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "sourceUrl": "https://www.inaturalist.org/taxa/883484"
+  },
+  "sunda-clouded-leopard": {
+    "taxonId": 74753,
+    "matchedName": "Neofelis diardi",
+    "photo": "https://static.inaturalist.org/photos/71259529/medium.jpg",
+    "photoCredit": "(c) Chien Lee, all rights reserved, uploaded by Chien Lee",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/74753"
+  },
+  "oriental-pied-hornbill": {
+    "taxonId": 5551,
+    "matchedName": "Anthracoceros albirostris",
+    "photo": "https://static.inaturalist.org/photos/208950228/medium.jpeg",
+    "photoCredit": "(c) jan knol, all rights reserved, uploaded by jan knol",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/5551"
+  },
+  "asian-fairy-bluebird": {
+    "taxonId": 12013,
+    "matchedName": "Irena puella",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/250703581/medium.jpg",
+    "photoCredit": "(c) Ivan Neo, some rights reserved (CC BY-NC), uploaded by Ivan Neo",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/12013"
+  },
+  "saltwater-crocodile": {
+    "taxonId": 26068,
+    "matchedName": "Crocodylus porosus",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/578651292/medium.jpg",
+    "photoCredit": "\nObtained from Molly Ebersold of the St. Augustine Alligator Farm, no known copyright restrictions (public domain)",
+    "license": "pd",
+    "sourceUrl": "https://www.inaturalist.org/taxa/26068"
+  },
+  "northern-gannet": {
+    "taxonId": 3802,
+    "matchedName": "Morus bassanus",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/8811/medium.jpg",
+    "photoCredit": "(c) P\u00c3\u00a9tur Gauti Valgeirsson, some rights reserved (CC BY-NC-SA)",
+    "license": "cc-by-nc-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/3802"
+  },
+  "common-guillemot": {
+    "taxonId": 4519,
+    "matchedName": "Uria aalge",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/96826556/medium.jpg",
+    "photoCredit": "(c) \u0410\u043d\u043d\u0430 \u0413\u043e\u043b\u0443\u0431\u0435\u0432\u0430, some rights reserved (CC BY-NC-ND), uploaded by \u0410\u043d\u043d\u0430 \u0413\u043e\u043b\u0443\u0431\u0435\u0432\u0430",
+    "license": "cc-by-nc-nd",
+    "sourceUrl": "https://www.inaturalist.org/taxa/4519"
+  },
+  "european-storm-petrel": {
+    "taxonId": 4170,
+    "matchedName": "Hydrobates pelagicus",
+    "photo": "https://static.inaturalist.org/photos/222792269/medium.jpeg",
+    "photoCredit": "(c) Titouan Roguet, all rights reserved, uploaded by Titouan Roguet",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/4170"
+  },
+  "great-skua": {
+    "taxonId": 144297,
+    "matchedName": "Stercorarius skua",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/42775953/medium.jpg",
+    "photoCredit": "(c) Janne Asp, some rights reserved (CC BY-NC-ND), uploaded by Janne Asp",
+    "license": "cc-by-nc-nd",
+    "sourceUrl": "https://www.inaturalist.org/taxa/144297"
+  },
+  "grey-seal": {
+    "taxonId": 41733,
+    "matchedName": "Halichoerus grypus",
+    "photo": "https://static.inaturalist.org/photos/11914440/medium.jpg",
+    "photoCredit": "(c) Annice Bridgett, all rights reserved, uploaded by Annice Bridgett",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/41733"
+  },
+  "red-throated-loon": {
+    "taxonId": 4627,
+    "matchedName": "Gavia stellata",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/403741335/medium.jpg",
+    "photoCredit": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/4627"
+  },
+  "razorbill": {
+    "taxonId": 4501,
+    "matchedName": "Alca torda",
+    "photo": "https://static.inaturalist.org/photos/572432142/medium.jpg",
+    "photoCredit": "(c) Mark Price, all rights reserved, uploaded by Mark Price",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/4501"
+  },
+  "fulmar": {
+    "taxonId": 4180,
+    "matchedName": "Fulmarus glacialis",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/197412/medium.jpg",
+    "photoCredit": "(c) Mark Rosenstein, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/4180"
+  },
+  "himalayan-monal": {
+    "taxonId": 1175,
+    "matchedName": "Lophophorus impejanus",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/374965708/medium.jpg",
+    "photoCredit": "(c) Martin Walsh, some rights reserved (CC BY-NC-ND), uploaded by Martin Walsh",
+    "license": "cc-by-nc-nd",
+    "sourceUrl": "https://www.inaturalist.org/taxa/1175"
+  },
+  "blood-pheasant": {
+    "taxonId": 1140,
+    "matchedName": "Ithaginis cruentus",
+    "photo": "https://static.inaturalist.org/photos/160829266/medium.jpg",
+    "photoCredit": "(c) Chris Burney, all rights reserved, uploaded by Chris Burney",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/1140"
+  },
+  "satyr-tragopan": {
+    "taxonId": 1058,
+    "matchedName": "Tragopan satyra",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/174249254/medium.jpeg",
+    "photoCredit": "(c) markus lilje, some rights reserved (CC BY-NC-ND), uploaded by markus lilje",
+    "license": "cc-by-nc-nd",
+    "sourceUrl": "https://www.inaturalist.org/taxa/1058"
+  },
+  "red-panda": {
+    "taxonId": 41653,
+    "matchedName": "Ailurus fulgens",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/26989188/medium.jpeg",
+    "photoCredit": "(c) pfaucher, some rights reserved (CC BY-NC), uploaded by pfaucher",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/41653"
+  },
+  "snow-leopard": {
+    "taxonId": 74831,
+    "matchedName": "Panthera uncia",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/16308659/medium.jpg",
+    "photoCredit": "(c) Tambako The Jaguar, some rights reserved (CC BY-ND)",
+    "license": "cc-by-nd",
+    "sourceUrl": "https://www.inaturalist.org/taxa/74831"
+  },
+  "yellow-billed-blue-magpie": {
+    "taxonId": 8416,
+    "matchedName": "Urocissa flavirostris",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/151771/medium.jpg",
+    "photoCredit": "(c) Sandeep Somasekharan, some rights reserved (CC BY-NC-ND)",
+    "license": "cc-by-nc-nd",
+    "sourceUrl": "https://www.inaturalist.org/taxa/8416"
+  },
+  "lammergeier": {
+    "taxonId": 5379,
+    "matchedName": "Gypaetus barbatus",
+    "photo": "https://static.inaturalist.org/photos/65759335/medium.jpg",
+    "photoCredit": "(c) Julio Eiroa - natureandphoto, all rights reserved, uploaded by Julio Eiroa - natureandphoto",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/5379"
+  },
+  "collared-trogon": {
+    "taxonId": 20754,
+    "matchedName": "Trogon collaris",
+    "common": "Collared Trogon",
+    "photo": "https://static.inaturalist.org/photos/462837409/medium.jpg",
+    "photoCredit": "(c) Luis Enrique Gir\u00f3n Mej\u00eda, all rights reserved, uploaded by Luis Enrique Gir\u00f3n Mej\u00eda",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/20754"
+  },
+  "three-striped-warbler": {
+    "taxonId": 518304,
+    "matchedName": "Basileuterus tristriatus",
+    "common": "Three-striped Warbler",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/58809099/medium.jpg",
+    "photoCredit": "(c) Christian Artuso, some rights reserved (CC BY-NC-ND), uploaded by Christian Artuso",
+    "license": "cc-by-nc-nd",
+    "sourceUrl": "https://www.inaturalist.org/taxa/518304"
+  },
+  "central-american-agouti": {
+    "taxonId": 43712,
+    "matchedName": "Dasyprocta punctata",
+    "common": "Central American Agouti",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/20896/medium.jpg",
+    "photoCredit": "(c) Peter Nijenhuis, some rights reserved (CC BY-NC-ND)",
+    "license": "cc-by-nc-nd",
+    "sourceUrl": "https://www.inaturalist.org/taxa/43712"
+  },
+  "yacare-caiman": {
+    "taxonId": 116570,
+    "matchedName": "Caiman yacare",
+    "common": "Yacare Caiman",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/8370598/medium.jpg",
+    "photoCredit": "(c) Markus  Lilje, some rights reserved (CC BY-NC-ND), uploaded by Markus  Lilje",
+    "license": "cc-by-nc-nd",
+    "sourceUrl": "https://www.inaturalist.org/taxa/116570"
+  },
+  "blue-and-yellow-macaw": {
+    "taxonId": 19018,
+    "matchedName": "Ara ararauna",
+    "common": "Blue-and-yellow Macaw",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/414331079/medium.jpeg",
+    "photoCredit": "(c) KENNEDY BORGES, some rights reserved (CC BY-NC), uploaded by KENNEDY BORGES",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/19018"
+  },
+  "wood-stork-pantanal": {
+    "taxonId": 4742,
+    "matchedName": "Mycteria americana",
+    "common": "Wood Stork",
+    "photo": "https://static.inaturalist.org/photos/108641164/medium.jpg",
+    "photoCredit": "(c) Jeff Stauffer, all rights reserved, uploaded by Jeff Stauffer",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/4742"
+  },
+  "sanderling": {
+    "taxonId": 3849,
+    "matchedName": "Calidris alba",
+    "common": "Sanderling",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/232281217/medium.jpeg",
+    "photoCredit": "(c) Marco Chan, some rights reserved (CC BY), uploaded by Marco Chan",
+    "license": "cc-by",
+    "sourceUrl": "https://www.inaturalist.org/taxa/3849"
+  },
+  "american-oystercatcher": {
+    "taxonId": 4840,
+    "matchedName": "Haematopus palliatus",
+    "common": "American Oystercatcher",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/159938212/medium.jpg",
+    "photoCredit": "(c) Carlos Moura, some rights reserved (CC BY-NC), uploaded by Carlos Moura",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/4840"
+  },
+  "seaside-sparrow": {
+    "taxonId": 793292,
+    "matchedName": "Ammospiza maritima",
+    "common": "Seaside Sparrow",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/338551/medium.jpg",
+    "photoCredit": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/793292"
+  },
+  "african-buffalo": {
+    "taxonId": 42405,
+    "matchedName": "Syncerus caffer",
+    "common": "African Buffalo",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/97834194/medium.jpg",
+    "photoCredit": "(c) Bernard DUPONT, some rights reserved (CC BY-SA)",
+    "license": "cc-by-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/42405"
+  },
+  "sacred-ibis": {
+    "taxonId": 3739,
+    "matchedName": "Threskiornis aethiopicus",
+    "common": "African Sacred Ibis",
+    "photo": "https://static.inaturalist.org/photos/626831344/medium.jpg",
+    "photoCredit": "(c) Ord Photouff, all rights reserved, uploaded by Ord Photouff",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/3739"
+  },
+  "slaty-egret": {
+    "taxonId": 4945,
+    "matchedName": "Egretta vinaceigula",
+    "common": "Slaty Egret",
+    "photo": "https://static.inaturalist.org/photos/67043967/medium.jpg",
+    "photoCredit": "(c) Johnny Wilson, all rights reserved, uploaded by Johnny Wilson",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/4945"
+  },
+  "kakapo": {
+    "taxonId": 1584019,
+    "matchedName": "Strigops habroptilus",
+    "common": "K\u0101k\u0101p\u014d",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/592580290/medium.jpg",
+    "photoCredit": "(c) Jake Osborne, some rights reserved (CC BY-NC-SA)",
+    "license": "cc-by-nc-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/1584019"
+  },
+  "rifleman": {
+    "taxonId": 7254,
+    "matchedName": "Acanthisitta chloris",
+    "common": "Rifleman",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/43464881/medium.jpeg",
+    "photoCredit": "(c) James Bailey, some rights reserved (CC BY-NC), uploaded by James Bailey",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/7254"
+  },
+  "new-zealand-fur-seal": {
+    "taxonId": 41752,
+    "matchedName": "Arctocephalus forsteri",
+    "common": "Long-nosed Fur Seal",
+    "photo": "https://static.inaturalist.org/photos/38400029/medium.jpg",
+    "photoCredit": "(c) goodonya, all rights reserved, uploaded by goodonya",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/41752"
+  },
+  "borneo-elephant": {
+    "taxonId": 43697,
+    "matchedName": "Elephas maximus",
+    "common": "Asian Elephant",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/2035244/medium.jpg",
+    "photoCredit": "(c) Mousam Ray, some rights reserved (CC BY-NC), uploaded by Mousam Ray",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/43697"
+  },
+  "wallace-flying-frog": {
+    "taxonId": 26490,
+    "matchedName": "Rhacophorus nigropalmatus",
+    "common": "Wallace's Flying Frog",
+    "photo": "https://static.inaturalist.org/photos/265644448/medium.jpg",
+    "photoCredit": "(c) Jono Dashper, all rights reserved",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/26490"
+  },
+  "helmeted-hornbill": {
+    "taxonId": 72577,
+    "matchedName": "Rhinoplax vigil",
+    "common": "Helmeted Hornbill",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/362800371/medium.jpeg",
+    "photoCredit": "(c) Wat Wongpan, some rights reserved (CC BY-NC), uploaded by Wat Wongpan",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/72577"
+  },
+  "atlantic-puffin-celtic": {
+    "taxonId": 4504,
+    "matchedName": "Fratercula arctica",
+    "common": "Atlantic Puffin",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/63139388/medium.jpg",
+    "photoCredit": "(c) Paul Steeves, some rights reserved (CC BY-NC), uploaded by Paul Steeves",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/4504"
+  },
+  "european-shag": {
+    "taxonId": 1289604,
+    "matchedName": "Gulosus aristotelis",
+    "common": "European Shag",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/53779299/medium.jpg",
+    "photoCredit": "(c) Tony, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "sourceUrl": "https://www.inaturalist.org/taxa/1289604"
+  },
+  "harbor-porpoise": {
+    "taxonId": 41440,
+    "matchedName": "Phocoena phocoena",
+    "common": "Harbour Porpoise",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/49220183/medium.jpg",
+    "photoCredit": "(c) John D Reynolds, some rights reserved (CC BY-NC), uploaded by John D Reynolds",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/41440"
+  },
+  "himalayan-griffon": {
+    "taxonId": 5367,
+    "matchedName": "Gyps himalayensis",
+    "common": "Himalayan Griffon",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/26316/medium.jpg",
+    "photoCredit": "(c) mll, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/5367"
+  },
+  "plateau-pika": {
+    "taxonId": 43198,
+    "matchedName": "Ochotona curzoniae",
+    "common": "Black-lipped Pika",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/47522017/medium.jpeg",
+    "photoCredit": "(c) Homemountain/Shan Gui, some rights reserved (CC BY-NC), uploaded by Homemountain/Shan Gui",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/43198"
+  },
+  "white-bellied-heron": {
+    "taxonId": 4970,
+    "matchedName": "Ardea insignis",
+    "common": "White-bellied Heron",
+    "photo": "https://static.inaturalist.org/photos/450095299/medium.jpg",
+    "photoCredit": "(c) Surya Ramachandran, all rights reserved, uploaded by Surya Ramachandran",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/4970"
+  },
+  "amazon-kingfisher": {
+    "taxonId": 2679,
+    "matchedName": "Chloroceryle amazona",
+    "common": "Amazon Kingfisher",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/170123283/medium.jpeg",
+    "photoCredit": "(c) Estaci\u00f3n Biol\u00f3gica Las Guacamayas, some rights reserved (CC BY-NC), uploaded by Estaci\u00f3n Biol\u00f3gica Las Guacamayas",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/2679"
+  },
+  "tufted-capuchin": {
+    "taxonId": 496700,
+    "matchedName": "Sapajus apella",
+    "common": "Brown Capuchin",
+    "photo": "https://static.inaturalist.org/photos/34444461/medium.jpg",
+    "photoCredit": "(c) Joao Quental, all rights reserved, uploaded by Joao Quental",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/496700"
+  },
+  "scarlet-ibis-amazon": {
+    "taxonId": 3750,
+    "matchedName": "Eudocimus ruber",
+    "common": "Scarlet Ibis",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/258315551/medium.jpg",
+    "photoCredit": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/3750"
+  },
+  "green-anaconda-amazon": {
+    "taxonId": 32213,
+    "matchedName": "Eunectes murinus",
+    "common": "Green Anaconda",
+    "photo": "https://static.inaturalist.org/photos/253683723/medium.jpeg",
+    "photoCredit": "(c) Luis F. C. de Lima, all rights reserved, uploaded by Luis F. C. de Lima",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/32213"
+  },
+  "spotted-hyena": {
+    "taxonId": 41886,
+    "matchedName": "Crocuta crocuta",
+    "common": "Spotted Hyena",
+    "photo": "https://static.inaturalist.org/photos/15526597/medium.jpg",
+    "photoCredit": "(c) mary-hunter, all rights reserved, uploaded by mary-hunter",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/41886"
+  },
+  "kori-bustard": {
+    "taxonId": 115,
+    "matchedName": "Ardeotis kori",
+    "common": "Kori Bustard",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/73258609/medium.jpeg",
+    "photoCredit": "(c) Doug Macdonald, some rights reserved (CC BY-NC), uploaded by Doug Macdonald",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/115"
+  },
+  "lilac-breasted-roller-serengeti": {
+    "taxonId": 2269,
+    "matchedName": "Coracias caudatus",
+    "common": "Lilac-breasted Roller",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/8050/medium.jpg",
+    "photoCredit": "(c) Dave Govoni, some rights reserved (CC BY-NC-SA)",
+    "license": "cc-by-nc-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/2269"
+  },
+  "olive-baboon": {
+    "taxonId": 74832,
+    "matchedName": "Papio anubis",
+    "common": "Olive Baboon",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/358065075/medium.jpg",
+    "photoCredit": "(c) David Torres, some rights reserved (CC BY-NC), uploaded by David Torres",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/74832"
+  },
+  "giant-moray": {
+    "taxonId": 121000,
+    "matchedName": "Gymnothorax javanicus",
+    "common": "Giant Moray",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/247871410/medium.jpg",
+    "photoCredit": "(c) Luis P. B., some rights reserved (CC BY-NC), uploaded by Luis P. B.",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/121000"
+  },
+  "crown-of-thorns": {
+    "taxonId": 50915,
+    "matchedName": "Acanthaster planci",
+    "common": "Long-spined Crown-of-Thorns",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/11943164/medium.jpeg",
+    "photoCredit": "(c) Mahadi Mohammad, some rights reserved (CC BY-NC), uploaded by Mahadi Mohammad",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/50915"
+  },
+  "black-naped-tern": {
+    "taxonId": 4453,
+    "matchedName": "Sterna sumatrana",
+    "common": "Black-naped Tern",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/468597379/medium.jpeg",
+    "photoCredit": "(c) Robin, some rights reserved (CC BY-NC-ND), uploaded by Robin",
+    "license": "cc-by-nc-nd",
+    "sourceUrl": "https://www.inaturalist.org/taxa/4453"
+  },
+  "blue-sea-star": {
+    "taxonId": 57745,
+    "matchedName": "Linckia laevigata",
+    "common": "Blue Linckia",
+    "photo": "https://static.inaturalist.org/photos/225162251/medium.jpg",
+    "photoCredit": "(c) Bob Edgar, all rights reserved, uploaded by Bob Edgar",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/57745"
+  },
+  "svalbard-rock-ptarmigan": {
+    "taxonId": 949,
+    "matchedName": "Lagopus muta",
+    "common": "Rock Ptarmigan",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/45166074/medium.jpg",
+    "photoCredit": "(c) Ryan Shaw, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/949"
+  },
+  "black-legged-kittiwake": {
+    "taxonId": 4494,
+    "matchedName": "Rissa tridactyla",
+    "common": "Black-legged Kittiwake",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/419912377/medium.jpg",
+    "photoCredit": "(c) Marion Goascoz, some rights reserved (CC BY-NC), uploaded by Marion Goascoz",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/4494"
+  },
+  "ringed-seal": {
+    "taxonId": 41691,
+    "matchedName": "Pusa hispida",
+    "common": "Ringed Seal",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/12265846/medium.jpeg",
+    "photoCredit": "(c) Kingfisher, some rights reserved (CC BY-SA)",
+    "license": "cc-by-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/41691"
+  },
+  "barnacle-goose": {
+    "taxonId": 7101,
+    "matchedName": "Branta leucopsis",
+    "common": "Barnacle Goose",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/1954722/medium.jpg",
+    "photoCredit": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/7101"
+  },
+  "galapagos-flamingo": {
+    "taxonId": 4257,
+    "matchedName": "Phoenicopterus ruber",
+    "common": "American Flamingo",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/108374016/medium.jpg",
+    "photoCredit": "(c) Antonio Robles, some rights reserved (CC BY-NC-SA), uploaded by Antonio Robles",
+    "license": "cc-by-nc-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/4257"
+  },
+  "nazca-booby": {
+    "taxonId": 56768,
+    "matchedName": "Sula granti",
+    "common": "Nazca Booby",
+    "photo": "https://static.inaturalist.org/photos/587370121/medium.jpg",
+    "photoCredit": "(c) Leonardo Mer\u00e7on, all rights reserved, uploaded by Leonardo Mer\u00e7on",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/56768"
+  },
+  "galapagos-fur-seal": {
+    "taxonId": 41747,
+    "matchedName": "Arctocephalus galapagoensis",
+    "common": "Gal\u00e1pagos Fur Seal",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/194755729/medium.jpg",
+    "photoCredit": "(c) zoeeliades, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/41747"
+  },
+  "galapagos-painted-locust": {
+    "taxonId": 205755,
+    "matchedName": "Schistocerca melanocera",
+    "common": "Large Painted Locust",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/23621994/medium.jpg",
+    "photoCredit": "(c) David Jeffrey Ringer, some rights reserved (CC BY-NC), uploaded by David Jeffrey Ringer",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/205755"
+  },
+  "limpkin": {
+    "taxonId": 7,
+    "matchedName": "Aramus guarauna",
+    "common": "Limpkin",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/161521395/medium.jpg",
+    "photoCredit": "(c) David Monroy R, some rights reserved (CC BY-NC), uploaded by David Monroy R",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/7"
+  },
+  "tricolored-heron": {
+    "taxonId": 4938,
+    "matchedName": "Egretta tricolor",
+    "common": "Tricolored Heron",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/149734404/medium.jpeg",
+    "photoCredit": "(c) Pete Followill, some rights reserved (CC BY-NC), uploaded by Pete Followill",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/4938"
+  },
+  "river-otter-everglades": {
+    "taxonId": 41777,
+    "matchedName": "Lontra canadensis",
+    "common": "North American River Otter",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/172440134/medium.jpg",
+    "photoCredit": "no rights reserved, uploaded by Adam Jackson",
+    "license": "cc0",
+    "sourceUrl": "https://www.inaturalist.org/taxa/41777"
+  },
+  "swallow-tailed-kite": {
+    "taxonId": 5301,
+    "matchedName": "Elanoides forficatus",
+    "common": "Swallow-tailed Kite",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/21518168/medium.jpg",
+    "photoCredit": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/5301"
+  },
+  "osprey-yellowstone": {
+    "taxonId": 116999,
+    "matchedName": "Pandion haliaetus",
+    "common": "Osprey",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/6903515/medium.jpg",
+    "photoCredit": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/116999"
+  },
+  "moose-yellowstone": {
+    "taxonId": 522193,
+    "matchedName": "Alces alces",
+    "common": "Moose",
+    "photo": "https://static.inaturalist.org/photos/335160686/medium.jpg",
+    "photoCredit": "(c) Declan Troy, all rights reserved, uploaded by Declan Troy",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/522193"
+  },
+  "american-pika": {
+    "taxonId": 43188,
+    "matchedName": "Ochotona princeps",
+    "common": "American Pika",
+    "photo": "https://static.inaturalist.org/photos/554486954/medium.jpg",
+    "photoCredit": "(c) Jeremy B. Yoder, all rights reserved, uploaded by Jeremy B. Yoder",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/43188"
+  },
+  "cutthroat-trout": {
+    "taxonId": 68075,
+    "matchedName": "Oncorhynchus clarkii",
+    "common": "Coastal Cutthroat Trout",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/81804399/medium.jpg",
+    "photoCredit": "(c) dmtptp, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/68075"
+  },
+  "cactus-wren": {
+    "taxonId": 7470,
+    "matchedName": "Campylorhynchus brunneicapillus",
+    "common": "Cactus Wren",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/59149672/medium.jpg",
+    "photoCredit": "(c) Gordon Karre, some rights reserved (CC BY-NC), uploaded by Gordon Karre",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/7470"
+  },
+  "desert-bighorn": {
+    "taxonId": 42391,
+    "matchedName": "Ovis canadensis",
+    "common": "Bighorn Sheep",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/61523007/medium.jpg",
+    "photoCredit": "(c) lonnyholmes, some rights reserved (CC BY-NC), uploaded by lonnyholmes",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/42391"
+  },
+  "gilded-flicker": {
+    "taxonId": 18256,
+    "matchedName": "Colaptes chrysoides",
+    "common": "Gilded Flicker",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/2921338/medium.jpg",
+    "photoCredit": "(c) Steven Mlodinow, some rights reserved (CC BY-NC), uploaded by Steven Mlodinow",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/18256"
+  },
+  "desert-kangaroo-rat": {
+    "taxonId": 44120,
+    "matchedName": "Dipodomys deserti",
+    "common": "Desert Kangaroo Rat",
+    "photo": "https://static.inaturalist.org/photos/13380916/medium.jpg",
+    "photoCredit": "(c) Alice Abela, all rights reserved",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/44120"
+  },
+  "western-lowland-gorilla": {
+    "taxonId": 43580,
+    "matchedName": "Gorilla gorilla",
+    "common": "Western Gorilla",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/282241201/medium.jpg",
+    "photoCredit": "(c) simben, some rights reserved (CC BY-NC-ND), uploaded by simben",
+    "license": "cc-by-nc-nd",
+    "sourceUrl": "https://www.inaturalist.org/taxa/43580"
+  },
+  "congo-peafowl": {
+    "taxonId": 1260,
+    "matchedName": "Afropavo congensis",
+    "common": "Congo Peafowl",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/9363566/medium.jpg",
+    "photoCredit": "(c) frank wouters, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "sourceUrl": "https://www.inaturalist.org/taxa/1260"
+  },
+  "mantled-guereza": {
+    "taxonId": 1075514,
+    "matchedName": "Colobus guereza",
+    "common": "Mantled Guereza",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/29474041/medium.jpg",
+    "photoCredit": "(c) mikeloomis, some rights reserved (CC BY-NC), uploaded by mikeloomis",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/1075514"
+  },
+  "african-grey-parrot": {
+    "taxonId": 19269,
+    "matchedName": "Psittacus erithacus",
+    "common": "Gray Parrot",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/47367883/medium.jpg",
+    "photoCredit": "(c) Valerie, some rights reserved (CC BY-NC-ND)",
+    "license": "cc-by-nc-nd",
+    "sourceUrl": "https://www.inaturalist.org/taxa/19269"
+  },
+  "great-blue-turaco": {
+    "taxonId": 7250,
+    "matchedName": "Corythaeola cristata",
+    "common": "Great Blue Turaco",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/61581334/medium.jpg",
+    "photoCredit": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/7250"
+  },
+  "african-forest-elephant": {
+    "taxonId": 357910,
+    "matchedName": "Loxodonta cyclotis",
+    "common": "Forest Elephant",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/12833226/medium.jpeg",
+    "photoCredit": "(c) pfaucher, some rights reserved (CC BY-NC), uploaded by pfaucher",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/357910"
+  },
+  "chocolate-backed-kingfisher": {
+    "taxonId": 2316,
+    "matchedName": "Halcyon badia",
+    "common": "Chocolate-backed Kingfisher",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/8969188/medium.jpg",
+    "photoCredit": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/2316"
+  },
+  "lion-tailed-macaque": {
+    "taxonId": 43446,
+    "matchedName": "Macaca silenus",
+    "common": "Lion-tailed Macaque",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/455099444/medium.jpg",
+    "photoCredit": "(c) pattabi, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/43446"
+  },
+  "malabar-trogon": {
+    "taxonId": 20800,
+    "matchedName": "Harpactes fasciatus",
+    "common": "Malabar Trogon",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/50602727/medium.jpeg",
+    "photoCredit": "no rights reserved, uploaded by S.MORE",
+    "license": "cc0",
+    "sourceUrl": "https://www.inaturalist.org/taxa/20800"
+  },
+  "sri-lanka-frogmouth": {
+    "taxonId": 19687,
+    "matchedName": "Batrachostomus moniliger",
+    "common": "Sri Lanka Frogmouth",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/177141455/medium.jpg",
+    "photoCredit": "(c) Roman Prokhorov, some rights reserved (CC BY-NC), uploaded by Roman Prokhorov",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/19687"
+  },
+  "nilgiri-tahr": {
+    "taxonId": 74772,
+    "matchedName": "Nilgiritragus hylocrius",
+    "common": "Nilgiri Tahr",
+    "photo": "https://static.inaturalist.org/photos/27061356/medium.jpg",
+    "photoCredit": "(c) lauren_brown27, all rights reserved",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/74772"
+  },
+  "great-hornbill": {
+    "taxonId": 5536,
+    "matchedName": "Buceros bicornis",
+    "common": "Great Hornbill",
+    "photo": "https://static.inaturalist.org/photos/13353681/medium.jpg",
+    "photoCredit": "(c) Marc Faucher, all rights reserved, uploaded by Marc Faucher",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/5536"
+  },
+  "malabar-gliding-frog": {
+    "taxonId": 26530,
+    "matchedName": "Rhacophorus malabaricus",
+    "common": "Malabar Gliding Frog",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/231414919/medium.jpg",
+    "photoCredit": "(c) Vikrant Kumar, some rights reserved (CC BY-NC), uploaded by Vikrant Kumar",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/26530"
+  },
+  "nilgiri-flycatcher": {
+    "taxonId": 72846,
+    "matchedName": "Eumyias albicaudatus",
+    "common": "Nilgiri Flycatcher",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/1895257/medium.jpg",
+    "photoCredit": "(c) antonygrossy, some rights reserved (CC BY-NC), uploaded by antonygrossy",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/72846"
+  },
+  "southern-muriqui": {
+    "taxonId": 43404,
+    "matchedName": "Brachyteles arachnoides",
+    "common": "Southern Muriqui",
+    "photo": "https://static.inaturalist.org/photos/377786675/medium.jpeg",
+    "photoCredit": "(c) Allan Souza, all rights reserved, uploaded by Allan Souza",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/43404"
+  },
+  "red-necked-tanager": {
+    "taxonId": 9549,
+    "matchedName": "Tangara cyanocephala",
+    "common": "Red-necked Tanager",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/26372064/medium.jpeg",
+    "photoCredit": "(c) guyincognito, some rights reserved (CC BY-NC), uploaded by guyincognito",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/9549"
+  },
+  "channel-billed-toucan": {
+    "taxonId": 18803,
+    "matchedName": "Ramphastos vitellinus",
+    "common": "Channel-billed Toucan",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/210402416/medium.jpg",
+    "photoCredit": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/18803"
+  },
+  "maned-wolf-atlantic": {
+    "taxonId": 42091,
+    "matchedName": "Chrysocyon brachyurus",
+    "common": "Maned Wolf",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/698951231/medium.jpg",
+    "photoCredit": "(c) Leandro Rezende, some rights reserved (CC BY-NC), uploaded by Leandro Rezende",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/42091"
+  },
+  "helmeted-woodpecker": {
+    "taxonId": 513600,
+    "matchedName": "Celeus galeatus",
+    "common": "Helmeted Woodpecker",
+    "photo": "https://static.inaturalist.org/photos/206145141/medium.jpg",
+    "photoCredit": "(c) Luiz Fernando Matos, all rights reserved, uploaded by Luiz Fernando Matos",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/513600"
+  },
+  "golden-lion-tamarin": {
+    "taxonId": 43396,
+    "matchedName": "Leontopithecus rosalia",
+    "common": "Golden Lion Tamarin",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/4910030/medium.jpg",
+    "photoCredit": "(c) Giverny, some rights reserved (CC BY-NC), uploaded by Giverny",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/43396"
+  },
+  "bare-throated-bellbird": {
+    "taxonId": 8854,
+    "matchedName": "Procnias nudicollis",
+    "common": "Bare-throated Bellbird",
+    "photo": "https://static.inaturalist.org/photos/168838550/medium.jpeg",
+    "photoCredit": "(c) gstroz, all rights reserved",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/8854"
+  },
+  "verreauxs-sifaka": {
+    "taxonId": 43603,
+    "matchedName": "Propithecus verreauxi",
+    "common": "Verreaux's Sifaka",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/64427551/medium.jpg",
+    "photoCredit": "(c) William Stephens, some rights reserved (CC BY), uploaded by William Stephens",
+    "license": "cc-by",
+    "sourceUrl": "https://www.inaturalist.org/taxa/43603"
+  },
+  "sickle-billed-vanga": {
+    "taxonId": 8628,
+    "matchedName": "Falculea palliata",
+    "common": "Sickle-billed Vanga",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/171942193/medium.jpeg",
+    "photoCredit": "(c) markus lilje, some rights reserved (CC BY-NC-ND), uploaded by markus lilje",
+    "license": "cc-by-nc-nd",
+    "sourceUrl": "https://www.inaturalist.org/taxa/8628"
+  },
+  "panther-chameleon": {
+    "taxonId": 33004,
+    "matchedName": "Furcifer pardalis",
+    "common": "Panther Chameleon",
+    "photo": "https://static.inaturalist.org/photos/126642158/medium.jpg",
+    "photoCredit": "(c) David Weiller, all rights reserved, uploaded by David Weiller",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/33004"
+  },
+  "madagascar-paradise-flycatcher": {
+    "taxonId": 8353,
+    "matchedName": "Terpsiphone mutata",
+    "common": "Malagasy Paradise-Flycatcher",
+    "photo": "https://static.inaturalist.org/photos/34366022/medium.jpg",
+    "photoCredit": "(c) Rand Rudland, all rights reserved, uploaded by Rand Rudland",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/8353"
+  },
+  "ring-tailed-lemur": {
+    "taxonId": 43617,
+    "matchedName": "Lemur catta",
+    "common": "Ring-tailed Lemur",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/25492/medium.jpg",
+    "photoCredit": "(c) Tambako The Jaguar, some rights reserved (CC BY-ND)",
+    "license": "cc-by-nd",
+    "sourceUrl": "https://www.inaturalist.org/taxa/43617"
+  },
+  "radiated-tortoise": {
+    "taxonId": 73695,
+    "matchedName": "Astrochelys radiata",
+    "common": "Radiated Tortoise",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/71756380/medium.jpeg",
+    "photoCredit": "(c) Josip Skejo, some rights reserved (CC BY), uploaded by Josip Skejo",
+    "license": "cc-by",
+    "sourceUrl": "https://www.inaturalist.org/taxa/73695"
+  },
+  "cuckoo-roller": {
+    "taxonId": 2258,
+    "matchedName": "Leptosomus discolor",
+    "common": "Cuckoo-roller",
+    "photo": "https://static.inaturalist.org/photos/418323219/medium.jpg",
+    "photoCredit": "(c) Max Omick, all rights reserved, uploaded by Max Omick",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/2258"
+  },
+  "apapane": {
+    "taxonId": 10684,
+    "matchedName": "Himatione sanguinea",
+    "common": "\u02bbApapane",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/178082620/medium.jpeg",
+    "photoCredit": "(c) guyincognito, some rights reserved (CC BY-NC), uploaded by guyincognito",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/10684"
+  },
+  "iiwi": {
+    "taxonId": 512251,
+    "matchedName": "Drepanis coccinea",
+    "common": "\u02bbI\u02bbiwi",
+    "photo": "https://static.inaturalist.org/photos/175950792/medium.jpg",
+    "photoCredit": "(c) Malcolm Gold, all rights reserved, uploaded by Malcolm Gold",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/512251"
+  },
+  "hawaiian-hawk": {
+    "taxonId": 5185,
+    "matchedName": "Buteo solitarius",
+    "common": "Hawaiian Hawk",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/346796864/medium.jpg",
+    "photoCredit": "(c) Christian Reynolds, some rights reserved (CC BY-NC), uploaded by Christian Reynolds",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/5185"
+  },
+  "nene": {
+    "taxonId": 7104,
+    "matchedName": "Branta sandvicensis",
+    "common": "Hawaiian Goose",
+    "photo": "https://static.inaturalist.org/photos/28708289/medium.jpg",
+    "photoCredit": "(c) Trent, all rights reserved, uploaded by Trent",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/7104"
+  },
+  "omao": {
+    "taxonId": 12961,
+    "matchedName": "Myadestes obscurus",
+    "common": "\u02bbOma\u02bbo",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/177985090/medium.jpeg",
+    "photoCredit": "(c) guyincognito, some rights reserved (CC BY-NC), uploaded by guyincognito",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/12961"
+  },
+  "happy-face-spider": {
+    "taxonId": 122011,
+    "matchedName": "Theridion grallator",
+    "common": "Hawaiian Happy Face Spider",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/240680116/medium.jpeg",
+    "photoCredit": "(c) James Bailey, some rights reserved (CC BY-NC), uploaded by James Bailey",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/122011"
+  },
+  "hawaiian-monk-seal": {
+    "taxonId": 446640,
+    "matchedName": "Neomonachus schauinslandi",
+    "common": "Hawaiian Monk Seal",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/71303285/medium.jpg",
+    "photoCredit": "(c) Papah\u0101naumoku\u0101kea Marine National Monument, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/446640"
+  },
+  "magpie-goose": {
+    "taxonId": 6905,
+    "matchedName": "Anseranas semipalmata",
+    "common": "Magpie Goose",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/39535553/medium.jpeg",
+    "photoCredit": "(c) Graham Winterflood, some rights reserved (CC BY-SA), uploaded by Graham Winterflood",
+    "license": "cc-by-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/6905"
+  },
+  "black-necked-stork": {
+    "taxonId": 4753,
+    "matchedName": "Ephippiorhynchus asiaticus",
+    "common": "Black-necked Stork",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/350626336/medium.jpg",
+    "photoCredit": "(c) Nicole Brooker, some rights reserved (CC BY-NC), uploaded by Nicole Brooker",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/4753"
+  },
+  "saltwater-crocodile-kakadu": {
+    "taxonId": 26068,
+    "matchedName": "Crocodylus porosus",
+    "common": "Saltwater Crocodile",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/578651292/medium.jpg",
+    "photoCredit": "\nObtained from Molly Ebersold of the St. Augustine Alligator Farm, no known copyright restrictions (public domain)",
+    "license": "pd",
+    "sourceUrl": "https://www.inaturalist.org/taxa/26068"
+  },
+  "rainbow-bee-eater": {
+    "taxonId": 2238,
+    "matchedName": "Merops ornatus",
+    "common": "Rainbow Bee-eater",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/350708162/medium.jpg",
+    "photoCredit": "(c) Nicole Brooker, some rights reserved (CC BY-NC), uploaded by Nicole Brooker",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/2238"
+  },
+  "comb-crested-jacana": {
+    "taxonId": 4582,
+    "matchedName": "Irediparra gallinacea",
+    "common": "Comb-crested Jacana",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/82876350/medium.jpg",
+    "photoCredit": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/4582"
+  },
+  "agile-wallaby": {
+    "taxonId": 1453432,
+    "matchedName": "Notamacropus agilis",
+    "common": "Agile Wallaby",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/12505914/medium.jpeg",
+    "photoCredit": "(c) Janine Duffy, Koala Clancy Foundation, some rights reserved (CC BY-NC), uploaded by Janine Duffy, Koala Clancy Foundation",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/1453432"
+  },
+  "white-bellied-sea-eagle": {
+    "taxonId": 1505653,
+    "matchedName": "Icthyophaga leucogaster",
+    "common": "White-bellied Sea-Eagle",
+    "photo": "https://static.inaturalist.org/photos/368682897/medium.jpg",
+    "photoCredit": "(c) Bob Edgar, all rights reserved, uploaded by Bob Edgar",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/1505653"
+  },
+  "bengal-tiger": {
+    "taxonId": 41967,
+    "matchedName": "Panthera tigris",
+    "common": "Tiger",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/13207883/medium.jpg",
+    "photoCredit": "(c) omveerchoudhary, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/41967"
+  },
+  "fishing-cat": {
+    "taxonId": 41946,
+    "matchedName": "Prionailurus viverrinus",
+    "common": "Fishing Cat",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/324406071/medium.jpg",
+    "photoCredit": "(c) Tim Bawden, some rights reserved (CC BY-NC), uploaded by Tim Bawden",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/41946"
+  },
+  "brown-winged-kingfisher": {
+    "taxonId": 2380,
+    "matchedName": "Pelargopsis amauroptera",
+    "common": "Brown-winged Kingfisher",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/731159/medium.jpg",
+    "photoCredit": "(c) Bikash Das, some rights reserved (CC BY), uploaded by Bikash Das",
+    "license": "cc-by",
+    "sourceUrl": "https://www.inaturalist.org/taxa/2380"
+  },
+  "mangrove-pitta": {
+    "taxonId": 14454,
+    "matchedName": "Pitta megarhyncha",
+    "common": "Mangrove Pitta",
+    "photo": "https://static.inaturalist.org/photos/117756819/medium.jpg",
+    "photoCredit": "(c) Hong Wenyang, all rights reserved, uploaded by Hong Wenyang",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/14454"
+  },
+  "asian-water-monitor": {
+    "taxonId": 114891,
+    "matchedName": "Varanus salvator",
+    "common": "Common Water Monitor",
+    "photo": "https://static.inaturalist.org/photos/81745135/medium.jpg",
+    "photoCredit": "(c) Andrew Blayney, all rights reserved, uploaded by Andrew Blayney",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/114891"
+  },
+  "irrawaddy-dolphin": {
+    "taxonId": 41519,
+    "matchedName": "Orcaella brevirostris",
+    "common": "Irrawaddy Dolphin",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/345657581/medium.jpeg",
+    "photoCredit": "(c) BioM_Akekachoke.B, some rights reserved (CC BY-NC), uploaded by BioM_Akekachoke.B",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/41519"
+  },
+  "masked-finfoot": {
+    "taxonId": 60,
+    "matchedName": "Heliopais personatus",
+    "common": "Masked Finfoot",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/6674965/medium.jpeg",
+    "photoCredit": "(c) Tun Pin ONG, some rights reserved (CC BY-SA)",
+    "license": "cc-by-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/60"
+  },
+  "great-white-pelican": {
+    "taxonId": 4327,
+    "matchedName": "Pelecanus onocrotalus",
+    "common": "Great White Pelican",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/114441448/medium.jpg",
+    "photoCredit": "(c) Luca Boscain, some rights reserved (CC BY-NC), uploaded by Luca Boscain",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/4327"
+  },
+  "glossy-ibis": {
+    "taxonId": 3756,
+    "matchedName": "Plegadis falcinellus",
+    "common": "Glossy Ibis",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/29367762/medium.jpg",
+    "photoCredit": "(c) bwood708, some rights reserved (CC BY-NC), uploaded by bwood708",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/3756"
+  },
+  "white-tailed-eagle": {
+    "taxonId": 5309,
+    "matchedName": "Haliaeetus albicilla",
+    "common": "White-tailed Eagle",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/164904961/medium.jpg",
+    "photoCredit": "(c) Jacob  Spinks, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "sourceUrl": "https://www.inaturalist.org/taxa/5309"
+  },
+  "common-reed-bunting": {
+    "taxonId": 9201,
+    "matchedName": "Emberiza schoeniclus",
+    "common": "Reed Bunting",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/6119774/medium.jpg",
+    "photoCredit": "(c) raz1940 et Charlotte, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/9201"
+  },
+  "eurasian-spoonbill": {
+    "taxonId": 3731,
+    "matchedName": "Platalea leucorodia",
+    "common": "Eurasian Spoonbill",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/8809/medium.jpg",
+    "photoCredit": "(c) Niranj Vaidyanathan, some rights reserved (CC BY-NC-ND)",
+    "license": "cc-by-nc-nd",
+    "sourceUrl": "https://www.inaturalist.org/taxa/3731"
+  },
+  "raccoon-dog": {
+    "taxonId": 855311,
+    "matchedName": "Nyctereutes procyonoides",
+    "common": "Mainland Raccoon Dog",
+    "photo": "https://static.inaturalist.org/photos/233596122/medium.jpeg",
+    "photoCredit": "(c) Tomek Nied\u017awied\u017a, all rights reserved, uploaded by Tomek Nied\u017awied\u017a",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/855311"
+  },
+  "pygmy-cormorant": {
+    "taxonId": 979813,
+    "matchedName": "Microcarbo pygmaeus",
+    "common": "Pygmy Cormorant",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/48978906/medium.jpg",
+    "photoCredit": "(c) ward123, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/979813"
+  },
+  "giant-anteater": {
+    "taxonId": 47107,
+    "matchedName": "Myrmecophaga tridactyla",
+    "common": "Giant Anteater",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/108811809/medium.jpg",
+    "photoCredit": "(c) Andy Jones, some rights reserved (CC BY-NC), uploaded by Andy Jones",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/47107"
+  },
+  "red-legged-seriema": {
+    "taxonId": 14,
+    "matchedName": "Cariama cristata",
+    "common": "Red-legged Seriema",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/108109917/medium.jpeg",
+    "photoCredit": "(c) Tomaz Nascimento de Melo, some rights reserved (CC BY-NC-ND), uploaded by Tomaz Nascimento de Melo",
+    "license": "cc-by-nc-nd",
+    "sourceUrl": "https://www.inaturalist.org/taxa/14"
+  },
+  "burrowing-owl-cerrado": {
+    "taxonId": 19975,
+    "matchedName": "Athene cunicularia",
+    "common": "Burrowing Owl",
+    "photo": "https://static.inaturalist.org/photos/57747291/medium.jpg",
+    "photoCredit": "(c) Jason Penney, all rights reserved",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/19975"
+  },
+  "yellowish-pipit": {
+    "taxonId": 1506152,
+    "matchedName": "Anthus chii",
+    "common": "Yellowish Pipit",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/581440670/medium.jpg",
+    "photoCredit": "(c) En\u00e9as V. Gouv\u00eaa Junior, some rights reserved (CC BY-SA), uploaded by En\u00e9as V. Gouv\u00eaa Junior",
+    "license": "cc-by-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/1506152"
+  },
+  "giant-armadillo": {
+    "taxonId": 47085,
+    "matchedName": "Priodontes maximus",
+    "common": "Giant Armadillo",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/116421927/medium.jpeg",
+    "photoCredit": "(c) Bradley Davis, some rights reserved (CC BY-NC), uploaded by Bradley Davis",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/47085"
+  },
+  "hyacinth-macaw-cerrado": {
+    "taxonId": 18938,
+    "matchedName": "Anodorhynchus hyacinthinus",
+    "common": "Hyacinth Macaw",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/144156185/medium.jpg",
+    "photoCredit": "(c) Paul Donahue, some rights reserved (CC BY-NC), uploaded by Paul Donahue",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/18938"
+  },
+  "maned-wolf-cerrado": {
+    "taxonId": 42091,
+    "matchedName": "Chrysocyon brachyurus",
+    "common": "Maned Wolf",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/698951231/medium.jpg",
+    "photoCredit": "(c) Leandro Rezende, some rights reserved (CC BY-NC), uploaded by Leandro Rezende",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/42091"
+  },
+  "scarlet-ibis": {
+    "taxonId": 3750,
+    "matchedName": "Eudocimus ruber",
+    "common": "Scarlet Ibis",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/258315551/medium.jpg",
+    "photoCredit": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/3750"
+  },
+  "jabiru-llanos": {
+    "taxonId": 4773,
+    "matchedName": "Jabiru mycteria",
+    "common": "Jabiru",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/578900/medium.jpg",
+    "photoCredit": "(c) David Schenfeld (busy), some rights reserved (CC BY-NC-ND)",
+    "license": "cc-by-nc-nd",
+    "sourceUrl": "https://www.inaturalist.org/taxa/4773"
+  },
+  "orinocan-crocodile": {
+    "taxonId": 26081,
+    "matchedName": "Crocodylus intermedius",
+    "common": "Orinoco Crocodile",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/313118549/medium.jpg",
+    "photoCredit": "(c) Royle Safaris, some rights reserved (CC BY-NC), uploaded by Royle Safaris",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/26081"
+  },
+  "scarlet-macaw-llanos": {
+    "taxonId": 19022,
+    "matchedName": "Ara macao",
+    "common": "Scarlet Macaw",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/233350330/medium.jpg",
+    "photoCredit": "(c) Matthew Patchett, some rights reserved (CC BY-NC), uploaded by Matthew Patchett",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/19022"
+  },
+  "horned-screamer": {
+    "taxonId": 6908,
+    "matchedName": "Anhima cornuta",
+    "common": "Horned Screamer",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/382281338/medium.jpg",
+    "photoCredit": "(c) Tadeusz Kawecki, some rights reserved (CC BY-NC), uploaded by Tadeusz Kawecki",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/6908"
+  },
+  "green-anaconda-llanos": {
+    "taxonId": 32213,
+    "matchedName": "Eunectes murinus",
+    "common": "Green Anaconda",
+    "photo": "https://static.inaturalist.org/photos/253683723/medium.jpeg",
+    "photoCredit": "(c) Luis F. C. de Lima, all rights reserved, uploaded by Luis F. C. de Lima",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/32213"
+  },
+  "whitetailed-deer-llanos": {
+    "taxonId": 42223,
+    "matchedName": "Odocoileus virginianus",
+    "common": "White-tailed Deer",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/110157765/medium.jpg",
+    "photoCredit": "(c) jefferykarafa, some rights reserved (CC BY-NC), uploaded by jefferykarafa",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/42223"
+  },
+  "reef-manta-raja": {
+    "taxonId": 623965,
+    "matchedName": "Mobula alfredi",
+    "common": "Reef Manta Ray",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/241208700/medium.jpg",
+    "photoCredit": "(c) Luis P. B., some rights reserved (CC BY-NC), uploaded by Luis P. B.",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/623965"
+  },
+  "tasselled-wobbegong": {
+    "taxonId": 63637,
+    "matchedName": "Eucrossorhinus dasypogon",
+    "common": "Tasselled Wobbegong",
+    "photo": "https://static.inaturalist.org/photos/63681167/medium.jpg",
+    "photoCredit": "(c) Poul Erik Rasmussen, all rights reserved, uploaded by Poul Erik Rasmussen",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/63637"
+  },
+  "wallace-s-standardwing": {
+    "taxonId": 8165,
+    "matchedName": "Semioptera wallacii",
+    "common": "Wallace's Standardwing",
+    "photo": "https://static.inaturalist.org/photos/50198870/medium.jpg",
+    "photoCredit": "(c) Chien Lee, all rights reserved, uploaded by Chien Lee",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/8165"
+  },
+  "green-turtle-raja": {
+    "taxonId": 39659,
+    "matchedName": "Chelonia mydas",
+    "common": "Green Sea Turtle",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/197457958/medium.jpg",
+    "photoCredit": "(c) MARC MARTIN SOLA, some rights reserved (CC BY-NC), uploaded by MARC MARTIN SOLA",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/39659"
+  },
+  "orange-spotted-filefish": {
+    "taxonId": 127710,
+    "matchedName": "Oxymonacanthus longirostris",
+    "common": "Longnose Filefish",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/8033213/medium.jpg",
+    "photoCredit": "(c) Mark Rosenstein, some rights reserved (CC BY-NC), uploaded by Mark Rosenstein",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/127710"
+  },
+  "cobalt-blue-tang": {
+    "taxonId": 130879,
+    "matchedName": "Paracanthurus hepatus",
+    "common": "Palette Tang",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/30261643/medium.jpg",
+    "photoCredit": "(c) H. Krisp, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "sourceUrl": "https://www.inaturalist.org/taxa/130879"
+  },
+  "spice-imperial-pigeon": {
+    "taxonId": 3252,
+    "matchedName": "Ducula myristicivora",
+    "common": "Spice Imperial Pigeon",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/3232011/medium.jpg",
+    "photoCredit": "(c) Nigel Voaden, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "sourceUrl": "https://www.inaturalist.org/taxa/3252"
+  },
+  "west-indian-manatee-belize": {
+    "taxonId": 46316,
+    "matchedName": "Trichechus manatus",
+    "common": "West Indian Manatee",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/17174106/medium.jpg",
+    "photoCredit": "(c) U.S. Fish and Wildlife Service Headquarters, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "sourceUrl": "https://www.inaturalist.org/taxa/46316"
+  },
+  "magnificent-frigatebird": {
+    "taxonId": 4631,
+    "matchedName": "Fregata magnificens",
+    "common": "Magnificent Frigatebird",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/176818863/medium.jpg",
+    "photoCredit": "(c) Kenneth Lorenzen, some rights reserved (CC BY-NC), uploaded by Kenneth Lorenzen",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/4631"
+  },
+  "nurse-shark": {
+    "taxonId": 49964,
+    "matchedName": "Ginglymostoma cirratum",
+    "common": "Nurse Shark",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/55987882/medium.jpg",
+    "photoCredit": "(c) Rafael de la Parra, some rights reserved (CC BY-NC), uploaded by Rafael de la Parra",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/49964"
+  },
+  "rainbow-parrotfish": {
+    "taxonId": 112148,
+    "matchedName": "Scarus guacamaia",
+    "common": "Rainbow Parrotfish",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/59818540/medium.jpg",
+    "photoCredit": "(c) Kevin Bryant, some rights reserved (CC BY-NC-SA)",
+    "license": "cc-by-nc-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/112148"
+  },
+  "roseate-spoonbill-belize": {
+    "taxonId": 62529,
+    "matchedName": "Platalea ajaja",
+    "common": "Roseate Spoonbill",
+    "photo": "https://static.inaturalist.org/photos/32776247/medium.jpg",
+    "photoCredit": "(c) drdad, all rights reserved",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/62529"
+  },
+  "american-crocodile-belize": {
+    "taxonId": 26085,
+    "matchedName": "Crocodylus acutus",
+    "common": "American Crocodile",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/23128431/medium.jpeg",
+    "photoCredit": "(c) Steve Mech, some rights reserved (CC BY-NC), uploaded by Steve Mech",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/26085"
+  },
+  "queen-triggerfish": {
+    "taxonId": 95066,
+    "matchedName": "Balistes vetula",
+    "common": "Queen Triggerfish",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/178657934/medium.jpg",
+    "photoCredit": "(c) Fran\u00e7ois Libert, some rights reserved (CC BY-NC-SA)",
+    "license": "cc-by-nc-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/95066"
+  },
+  "clearfin-lionfish": {
+    "taxonId": 121659,
+    "matchedName": "Pteropterus radiatus",
+    "common": "Clearfin Lionfish",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/3848251/medium.jpg",
+    "photoCredit": "(c) Mark Rosenstein, some rights reserved (CC BY-NC), uploaded by Mark Rosenstein",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/121659"
+  },
+  "red-sea-clownfish": {
+    "taxonId": 343249,
+    "matchedName": "Amphiprion bicinctus",
+    "common": "Red Sea Anemonefish",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/664346051/medium.jpg",
+    "photoCredit": "(c) Luis P. B., some rights reserved (CC BY-NC), uploaded by Luis P. B.",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/343249"
+  },
+  "humphead-wrasse": {
+    "taxonId": 82355,
+    "matchedName": "Cheilinus undulatus",
+    "common": "Napoleon Wrasse",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/107582757/medium.jpg",
+    "photoCredit": "(c) David Roche, some rights reserved (CC BY-NC), uploaded by David Roche",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/82355"
+  },
+  "white-eyed-gull": {
+    "taxonId": 144519,
+    "matchedName": "Ichthyaetus leucophthalmus",
+    "common": "White-eyed Gull",
+    "photo": "https://static.inaturalist.org/photos/187020423/medium.jpeg",
+    "photoCredit": "(c) Carlos N. G. Bocos, all rights reserved, uploaded by Carlos N. G. Bocos",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/144519"
+  },
+  "bannerfish": {
+    "taxonId": 102633,
+    "matchedName": "Heniochus diphreutes",
+    "common": "Schooling Bannerfish",
+    "photo": "https://static.inaturalist.org/photos/31001224/medium.jpg",
+    "photoCredit": "(c) Tim Cameron, all rights reserved, uploaded by Tim Cameron",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/102633"
+  },
+  "lyretail-anthias": {
+    "taxonId": 127530,
+    "matchedName": "Pseudanthias squamipinnis",
+    "common": "Lyretail Anthias",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/436134808/medium.jpg",
+    "photoCredit": "(c) Frank Krasovec, some rights reserved (CC BY-NC), uploaded by Frank Krasovec",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/127530"
+  },
+  "spinner-dolphin-redsea": {
+    "taxonId": 41496,
+    "matchedName": "Stenella longirostris",
+    "common": "Spinner Dolphin",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/83099258/medium.jpg",
+    "photoCredit": "(c) martinmoscovich, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/41496"
+  },
+  "darkling-beetle-namib": {
+    "taxonId": 83518,
+    "matchedName": "Onymacris unguicularis",
+    "common": "Black Fog-basking Namib Darkling",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/535492157/medium.jpg",
+    "photoCredit": "(c) Gerrit \u00d6hm, some rights reserved (CC BY-NC), uploaded by Gerrit \u00d6hm",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/83518"
+  },
+  "gemsbok": {
+    "taxonId": 42308,
+    "matchedName": "Oryx gazella",
+    "common": "Gemsbok",
+    "photo": "https://static.inaturalist.org/photos/221946717/medium.jpg",
+    "photoCredit": "(c) Artur Przybylo, all rights reserved, uploaded by Artur Przybylo",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/42308"
+  },
+  "greater-flamingo-namib": {
+    "taxonId": 73222,
+    "matchedName": "Phoenicopterus roseus",
+    "common": "Greater Flamingo",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/187242272/medium.jpg",
+    "photoCredit": "(c) cog2022, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/73222"
+  },
+  "cape-fur-seal-namib": {
+    "taxonId": 41742,
+    "matchedName": "Arctocephalus pusillus",
+    "common": "Brown Fur Seal",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/347732091/medium.jpg",
+    "photoCredit": "(c) Leo, some rights reserved (CC BY-NC-SA)",
+    "license": "cc-by-nc-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/41742"
+  },
+  "dune-lark": {
+    "taxonId": 144770,
+    "matchedName": "Calendulauda erythrochlamys",
+    "common": "Dune Lark",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/23759805/medium.jpg",
+    "photoCredit": "(c) Bird Explorers, some rights reserved (CC BY-NC), uploaded by Bird Explorers",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/144770"
+  },
+  "sidewinder-adder": {
+    "taxonId": 30857,
+    "matchedName": "Bitis peringueyi",
+    "common": "Peringuey's Adder",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/55688216/medium.jpeg",
+    "photoCredit": "(c) Felix Riegel, some rights reserved (CC BY-NC), uploaded by Felix Riegel",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/30857"
+  },
+  "damara-tern": {
+    "taxonId": 144535,
+    "matchedName": "Sternula balaenarum",
+    "common": "Damara Tern",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/468422586/medium.jpg",
+    "photoCredit": "(c) Luke Goddard, some rights reserved (CC BY-NC), uploaded by Luke Goddard",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/144535"
+  },
+  "vicuna": {
+    "taxonId": 1624576,
+    "matchedName": "Lama vicugna",
+    "common": "Vicu\u00f1a",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/108739003/medium.jpg",
+    "photoCredit": "(c) Thomas Fuhrmann, some rights reserved (CC BY-NC), uploaded by Thomas Fuhrmann",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/1624576"
+  },
+  "andean-flamingo": {
+    "taxonId": 73220,
+    "matchedName": "Phoenicoparrus andinus",
+    "common": "Andean Flamingo",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/171995487/medium.jpg",
+    "photoCredit": "(c) Luciano Massa, some rights reserved (CC BY), uploaded by Luciano Massa",
+    "license": "cc-by",
+    "sourceUrl": "https://www.inaturalist.org/taxa/73220"
+  },
+  "attema-lava-lizard": {
+    "taxonId": 39080,
+    "matchedName": "Microlophus atacamensis",
+    "common": "Atacamen Pacific Iguana",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/57899659/medium.jpg",
+    "photoCredit": "(c) charif_tala, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/39080"
+  },
+  "cinereous-ground-tyrant": {
+    "taxonId": 16163,
+    "matchedName": "Muscisaxicola cinereus",
+    "common": "Cinereous Ground-Tyrant",
+    "photo": "https://static.inaturalist.org/photos/14408315/medium.jpg",
+    "photoCredit": "(c) Jorge Schlemmer, all rights reserved",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/16163"
+  },
+  "llareta": {
+    "taxonId": 319970,
+    "matchedName": "Azorella compacta",
+    "common": "Yareta",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/72996573/medium.jpeg",
+    "photoCredit": "(c) Barna Takats, some rights reserved (CC BY-NC), uploaded by Barna Takats",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/319970"
+  },
+  "darwin-leaf-eared-mouse": {
+    "taxonId": 44722,
+    "matchedName": "Phyllotis darwinii",
+    "common": "Darwin's Leaf-eared Mouse",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/45762100/medium.jpg",
+    "photoCredit": "(c) Ariel Cabrera Foix, some rights reserved (CC BY-NC-SA), uploaded by Ariel Cabrera Foix",
+    "license": "cc-by-nc-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/44722"
+  },
+  "horned-coot": {
+    "taxonId": 490,
+    "matchedName": "Fulica cornuta",
+    "common": "Horned Coot",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/461218008/medium.jpeg",
+    "photoCredit": "(c) J\u00fcrgen Schneider, some rights reserved (CC BY-NC), uploaded by J\u00fcrgen Schneider",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/490"
+  },
+  "caribou-alaska": {
+    "taxonId": 42199,
+    "matchedName": "Rangifer tarandus",
+    "common": "Caribou",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/86057375/medium.jpg",
+    "photoCredit": "(c) Bering Land Bridge National Preserve, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "sourceUrl": "https://www.inaturalist.org/taxa/42199"
+  },
+  "snowy-owl-alaska": {
+    "taxonId": 144594,
+    "matchedName": "Bubo scandiacus",
+    "common": "Snowy Owl",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/150549757/medium.jpg",
+    "photoCredit": "(c) Patrick Randall, some rights reserved (CC BY-NC-SA)",
+    "license": "cc-by-nc-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/144594"
+  },
+  "tundra-swan": {
+    "taxonId": 6917,
+    "matchedName": "Cygnus columbianus",
+    "common": "Tundra Swan",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/183205026/medium.jpeg",
+    "photoCredit": "no rights reserved, uploaded by Andy Wilson",
+    "license": "cc0",
+    "sourceUrl": "https://www.inaturalist.org/taxa/6917"
+  },
+  "pectoral-sandpiper": {
+    "taxonId": 3865,
+    "matchedName": "Calidris melanotos",
+    "common": "Pectoral Sandpiper",
+    "photo": "https://static.inaturalist.org/photos/611117681/medium.jpg",
+    "photoCredit": "(c) Tom_Reichner, all rights reserved, uploaded by Tom_Reichner",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/3865"
+  },
+  "arctic-fox-alaska": {
+    "taxonId": 233598,
+    "matchedName": "Vulpes lagopus",
+    "common": "Arctic Fox",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/64217530/medium.jpg",
+    "photoCredit": "(c) Valerie, some rights reserved (CC BY-NC-ND)",
+    "license": "cc-by-nc-nd",
+    "sourceUrl": "https://www.inaturalist.org/taxa/233598"
+  },
+  "red-throated-loon-alaska": {
+    "taxonId": 4627,
+    "matchedName": "Gavia stellata",
+    "common": "Red-throated Loon",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/403741335/medium.jpg",
+    "photoCredit": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/4627"
+  },
+  "muskox": {
+    "taxonId": 42412,
+    "matchedName": "Ovibos moschatus",
+    "common": "Muskox",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/348194143/medium.jpg",
+    "photoCredit": "(c) Yinan Li, some rights reserved (CC BY-NC), uploaded by Yinan Li",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/42412"
+  },
+  "atlantic-puffin-iceland": {
+    "taxonId": 4504,
+    "matchedName": "Fratercula arctica",
+    "common": "Atlantic Puffin",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/63139388/medium.jpg",
+    "photoCredit": "(c) Paul Steeves, some rights reserved (CC BY-NC), uploaded by Paul Steeves",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/4504"
+  },
+  "gyrfalcon": {
+    "taxonId": 4657,
+    "matchedName": "Falco rusticolus",
+    "common": "Gyrfalcon",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/43913042/medium.jpg",
+    "photoCredit": "(c) kulyabin67, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/4657"
+  },
+  "arctic-fox-iceland": {
+    "taxonId": 233598,
+    "matchedName": "Vulpes lagopus",
+    "common": "Arctic Fox",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/64217530/medium.jpg",
+    "photoCredit": "(c) Valerie, some rights reserved (CC BY-NC-ND)",
+    "license": "cc-by-nc-nd",
+    "sourceUrl": "https://www.inaturalist.org/taxa/233598"
+  },
+  "northern-fulmar-iceland": {
+    "taxonId": 4180,
+    "matchedName": "Fulmarus glacialis",
+    "common": "Northern Fulmar",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/197412/medium.jpg",
+    "photoCredit": "(c) Mark Rosenstein, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/4180"
+  },
+  "humpback-whale-iceland": {
+    "taxonId": 41566,
+    "matchedName": "Megaptera novaeangliae",
+    "common": "Humpback Whale",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/255461843/medium.jpg",
+    "photoCredit": "(c) Wayne and Pam Osborn, some rights reserved (CC BY-NC), uploaded by Wayne and Pam Osborn",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/41566"
+  },
+  "pink-footed-goose": {
+    "taxonId": 7007,
+    "matchedName": "Anser brachyrhynchus",
+    "common": "Pink-footed Goose",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/7788733/medium.jpg",
+    "photoCredit": "(c) Martin Grimm, some rights reserved (CC BY-NC), uploaded by Martin Grimm",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/7007"
+  },
+  "ptarmigan-iceland": {
+    "taxonId": 949,
+    "matchedName": "Lagopus muta",
+    "common": "Rock Ptarmigan",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/45166074/medium.jpg",
+    "photoCredit": "(c) Ryan Shaw, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/949"
+  },
+  "american-black-bear-app": {
+    "taxonId": 41638,
+    "matchedName": "Ursus americanus",
+    "common": "American Black Bear",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/693472802/medium.jpg",
+    "photoCredit": "(c) Yinan Li, some rights reserved (CC BY-NC), uploaded by Yinan Li",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/41638"
+  },
+  "cerulean-warbler": {
+    "taxonId": 145232,
+    "matchedName": "Setophaga cerulea",
+    "common": "Cerulean Warbler",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/196225341/medium.jpeg",
+    "photoCredit": "(c) Matt Schenck, some rights reserved (CC BY), uploaded by Matt Schenck",
+    "license": "cc-by",
+    "sourceUrl": "https://www.inaturalist.org/taxa/145232"
+  },
+  "jordan-salamander": {
+    "taxonId": 27238,
+    "matchedName": "Plethodon jordani",
+    "common": "Red-cheeked Salamander",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/65448/medium.jpg",
+    "photoCredit": "(c) Todd Pierson, some rights reserved (CC BY-NC-SA)",
+    "license": "cc-by-nc-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/27238"
+  },
+  "wild-turkey-app": {
+    "taxonId": 906,
+    "matchedName": "Meleagris gallopavo",
+    "common": "Wild Turkey",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/31353610/medium.jpg",
+    "photoCredit": "(c) Matt K, some rights reserved (CC BY-NC), uploaded by Matt K",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/906"
+  },
+  "luna-moth": {
+    "taxonId": 47916,
+    "matchedName": "Actias luna",
+    "common": "North American Luna Moth",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/75856962/medium.jpg",
+    "photoCredit": "(c) Patrick Randall, some rights reserved (CC BY-NC-SA)",
+    "license": "cc-by-nc-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/47916"
+  },
+  "black-throated-blue-warbler": {
+    "taxonId": 199916,
+    "matchedName": "Setophaga caerulescens",
+    "common": "Black-throated Blue Warbler",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/101579504/medium.jpg",
+    "photoCredit": "(c) Edward Perry IV, some rights reserved (CC BY-NC), uploaded by Edward Perry IV",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/199916"
+  },
+  "elk-appalachians": {
+    "taxonId": 204114,
+    "matchedName": "Cervus canadensis",
+    "common": "Wapiti",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/115009764/medium.jpg",
+    "photoCredit": "(c) Mark Moschell, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/204114"
+  },
+  "magellanic-woodpecker": {
+    "taxonId": 18283,
+    "matchedName": "Campephilus magellanicus",
+    "common": "Magellanic Woodpecker",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/48405/medium.jpg",
+    "photoCredit": "(c) Liam Quinn, some rights reserved (CC BY-SA)",
+    "license": "cc-by-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/18283"
+  },
+  "southern-pudu": {
+    "taxonId": 42169,
+    "matchedName": "Pudu puda",
+    "common": "Southern Pud\u00fa",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/263624688/medium.jpg",
+    "photoCredit": "(c) [2], some rights reserved (CC BY)",
+    "license": "cc-by",
+    "sourceUrl": "https://www.inaturalist.org/taxa/42169"
+  },
+  "chucao-tapaculo": {
+    "taxonId": 14773,
+    "matchedName": "Scelorchilus rubecula",
+    "common": "Chucao Tapaculo",
+    "photo": "https://static.inaturalist.org/photos/285165353/medium.jpeg",
+    "photoCredit": "(c) Jono Dashper, all rights reserved, uploaded by Jono Dashper",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/14773"
+  },
+  "monito-del-monte": {
+    "taxonId": 43232,
+    "matchedName": "Dromiciops gliroides",
+    "common": "Southern Monito del Monte",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/6096/medium.jpg",
+    "photoCredit": "(c) Jos\u00c3\u00a9 Luis Bartheld, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "sourceUrl": "https://www.inaturalist.org/taxa/43232"
+  },
+  "slender-billed-parakeet": {
+    "taxonId": 19261,
+    "matchedName": "Enicognathus leptorhynchus",
+    "common": "Slender-billed Parakeet",
+    "photo": "https://static.inaturalist.org/photos/457044390/medium.jpeg",
+    "photoCredit": "(c) Stefan Dominik Br\u00e4ndel, all rights reserved, uploaded by Stefan Dominik Br\u00e4ndel",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/19261"
+  },
+  "alerce": {
+    "taxonId": 135931,
+    "matchedName": "Fitzroya cupressoides",
+    "common": "Patagonian cypress",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/62568265/medium.jpg",
+    "photoCredit": "(c) Patricio Novoa Quezada, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/135931"
+  },
+  "black-necked-swan": {
+    "taxonId": 72789,
+    "matchedName": "Cygnus melancoryphus",
+    "common": "Black-necked Swan",
+    "photo": "https://static.inaturalist.org/photos/213754116/medium.jpg",
+    "photoCredit": "(c) Mason Maron, all rights reserved, uploaded by Mason Maron",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/72789"
+  },
+  "alpine-ibex": {
+    "taxonId": 42357,
+    "matchedName": "Capra ibex",
+    "common": "Alpine Ibex",
+    "photo": "https://static.inaturalist.org/photos/373820446/medium.jpg",
+    "photoCredit": "(c) J\u00e9r\u00e9my Calvo, all rights reserved, uploaded by J\u00e9r\u00e9my Calvo",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/42357"
+  },
+  "chamois": {
+    "taxonId": 42347,
+    "matchedName": "Rupicapra rupicapra",
+    "common": "Northern Chamois",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/456684191/medium.jpg",
+    "photoCredit": "(c) Giles Laurent, some rights reserved (CC BY-SA)",
+    "license": "cc-by-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/42347"
+  },
+  "golden-eagle-alps": {
+    "taxonId": 5074,
+    "matchedName": "Aquila chrysaetos",
+    "common": "Golden Eagle",
+    "photo": "https://static.inaturalist.org/photos/168362446/medium.jpg",
+    "photoCredit": "(c) Carlos N. G. Bocos, all rights reserved, uploaded by Carlos N. G. Bocos",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/5074"
+  },
+  "wallcreeper": {
+    "taxonId": 14840,
+    "matchedName": "Tichodroma muraria",
+    "common": "Wallcreeper",
+    "photo": "https://static.inaturalist.org/photos/160447350/medium.jpeg",
+    "photoCredit": "(c) Titouan Roguet, all rights reserved, uploaded by Titouan Roguet",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/14840"
+  },
+  "alpine-marmot": {
+    "taxonId": 46082,
+    "matchedName": "Marmota marmota",
+    "common": "Alpine Marmot",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/281597745/medium.jpg",
+    "photoCredit": "(c) Boris Mittermeier, some rights reserved (CC BY-NC), uploaded by Boris Mittermeier",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/46082"
+  },
+  "white-winged-snowfinch": {
+    "taxonId": 204544,
+    "matchedName": "Montifringilla nivalis",
+    "common": "White-winged Snowfinch",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/27975599/medium.jpg",
+    "photoCredit": "(c) Jessica Peruzzo, some rights reserved (CC BY-NC-ND), uploaded by Jessica Peruzzo",
+    "license": "cc-by-nc-nd",
+    "sourceUrl": "https://www.inaturalist.org/taxa/204544"
+  },
+  "lammergeier-alps": {
+    "taxonId": 5379,
+    "matchedName": "Gypaetus barbatus",
+    "common": "Bearded Vulture",
+    "photo": "https://static.inaturalist.org/photos/65759335/medium.jpg",
+    "photoCredit": "(c) Julio Eiroa - natureandphoto, all rights reserved, uploaded by Julio Eiroa - natureandphoto",
+    "license": null,
+    "sourceUrl": "https://www.inaturalist.org/taxa/5379"
+  },
+  "komodo-dragon": {
+    "taxonId": 39449,
+    "matchedName": "Varanus komodoensis",
+    "common": "Komodo Dragon",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/1892238/medium.jpg",
+    "photoCredit": "(c) M. Ewell Young, some rights reserved (CC BY-NC), uploaded by M. Ewell Young",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/39449"
+  },
+  "timor-deer": {
+    "taxonId": 75052,
+    "matchedName": "Rusa timorensis",
+    "common": "Javan Rusa",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/319341283/medium.jpg",
+    "photoCredit": "(c) Ben Tsai\u8521\u7dad\u54f2, some rights reserved (CC BY-NC), uploaded by Ben Tsai\u8521\u7dad\u54f2",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/75052"
+  },
+  "orange-footed-scrubfowl": {
+    "taxonId": 2025,
+    "matchedName": "Megapodius reinwardt",
+    "common": "Orange-footed Scrubfowl",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/276808819/medium.jpg",
+    "photoCredit": "(c) Tony Palliser, some rights reserved (CC BY-NC), uploaded by Tony Palliser",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/2025"
+  },
+  "helmeted-friarbird": {
+    "taxonId": 12345,
+    "matchedName": "Philemon buceroides",
+    "common": "Helmeted Friarbird",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/30856764/medium.jpeg",
+    "photoCredit": "(c) James Bailey, some rights reserved (CC BY-NC), uploaded by James Bailey",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/12345"
+  },
+  "yellow-crested-cockatoo": {
+    "taxonId": 116759,
+    "matchedName": "Cacatua sulphurea",
+    "common": "Yellow-crested Cockatoo",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/179243597/medium.jpg",
+    "photoCredit": "(c) Mehd Halaouate, some rights reserved (CC BY-NC), uploaded by Mehd Halaouate",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/116759"
+  },
+  "lesser-frigatebird-komodo": {
+    "taxonId": 4634,
+    "matchedName": "Fregata ariel",
+    "common": "Lesser Frigatebird",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/131225777/medium.jpeg",
+    "photoCredit": "(c) Bird Explorers, some rights reserved (CC BY-NC), uploaded by Bird Explorers",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/4634"
+  },
+  "wild-water-buffalo-komodo": {
+    "taxonId": 81925,
+    "matchedName": "Bubalus bubalis",
+    "common": "Domestic Water Buffalo",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/4666378/medium.jpg",
+    "photoCredit": "(c) Giverny, some rights reserved (CC BY-NC), uploaded by Giverny",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/81925"
+  },
+  "greater-flamingo-camargue": {
+    "taxonId": 73222,
+    "matchedName": "Phoenicopterus roseus",
+    "common": "Greater Flamingo",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/187242272/medium.jpg",
+    "photoCredit": "(c) cog2022, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/73222"
+  },
+  "pied-avocet": {
+    "taxonId": 4883,
+    "matchedName": "Recurvirostra avosetta",
+    "common": "Pied Avocet",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/323031909/medium.jpg",
+    "photoCredit": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/4883"
+  },
+  "western-marsh-harrier": {
+    "taxonId": 5173,
+    "matchedName": "Circus aeruginosus",
+    "common": "Western Marsh Harrier",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/113786815/medium.jpg",
+    "photoCredit": "(c) Radovan V\u00e1clav, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/5173"
+  },
+  "black-winged-stilt": {
+    "taxonId": 4835,
+    "matchedName": "Himantopus himantopus",
+    "common": "Black-winged Stilt",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/20455456/medium.jpg",
+    "photoCredit": "(c) Paolo Zucca, some rights reserved (CC BY), uploaded by Paolo Zucca",
+    "license": "cc-by",
+    "sourceUrl": "https://www.inaturalist.org/taxa/4835"
+  },
+  "common-kingfisher-camargue": {
+    "taxonId": 2599,
+    "matchedName": "Alcedo atthis",
+    "common": "Common Kingfisher",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/61266631/medium.jpg",
+    "photoCredit": "(c) Mark Kilner, some rights reserved (CC BY-NC-SA)",
+    "license": "cc-by-nc-sa",
+    "sourceUrl": "https://www.inaturalist.org/taxa/2599"
+  },
+  "eurasian-beaver-camargue": {
+    "taxonId": 43793,
+    "matchedName": "Castor fiber",
+    "common": "Eurasian Beaver",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/262862372/medium.jpg",
+    "photoCredit": "(c) jamesbot, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "sourceUrl": "https://www.inaturalist.org/taxa/43793"
+  },
+  "collared-pratincole": {
+    "taxonId": 4604,
+    "matchedName": "Glareola pratincola",
+    "common": "Collared Pratincole",
+    "photo": "https://inaturalist-open-data.s3.amazonaws.com/photos/127206120/medium.jpg",
+    "photoCredit": "(c) \u0410\u043d\u043d\u0430 \u0413\u043e\u043b\u0443\u0431\u0435\u0432\u0430, some rights reserved (CC BY-NC-ND), uploaded by \u0410\u043d\u043d\u0430 \u0413\u043e\u043b\u0443\u0431\u0435\u0432\u0430",
+    "license": "cc-by-nc-nd",
+    "sourceUrl": "https://www.inaturalist.org/taxa/4604"
+  }
+}
