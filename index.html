@@ -11,6 +11,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230a0c0e'/%3E%3Ccircle cx='32' cy='32' r='14' fill='none' stroke='%236dff9a' stroke-width='4'/%3E%3C/svg%3E" />
   <link rel="stylesheet" href="manticore.css" />
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.172.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.172.0/examples/jsm/"
+    }
+  }
+  </script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -21,6 +29,7 @@
       <span>Field Node</span>
     </a>
     <nav class="nav-links" aria-label="Primary">
+      <a href="#configure">3D Node</a>
       <a href="#install">Install</a>
       <a href="#data">Data services</a>
       <a href="#how">How it works</a>
@@ -44,9 +53,107 @@
         <h1>Install a Field Node <em>in your habitat</em></h1>
         <p class="hero-lead">Private, local-first wildlife observation and habitat monitoring — or connect to our data services when you want a network.</p>
         <div class="cta-row">
-          <a class="btn btn-primary" href="#install">Install a Field Node</a>
+          <a class="btn btn-primary" href="#configure">Configure in 3D</a>
           <a class="btn btn-ghost" href="#data">Integrate data services</a>
         </div>
+      </div>
+    </section>
+
+    <section class="configure" id="configure" aria-label="Interactive Field Node">
+      <div class="configurator">
+        <div class="viewer-stage">
+          <canvas id="nodeCanvas" aria-label="Interactive 3D Manticore Field Node"></canvas>
+          <div class="viewer-chrome">
+            <div class="viewer-intro">
+              <p class="section-kicker">3D product</p>
+              <h2>Field Node</h2>
+            </div>
+            <p class="viewer-status" id="viewerStatus">Starting viewer…</p>
+            <div class="viewer-badges" aria-hidden="true">
+              <span data-mod="camera">Camera</span>
+              <span data-mod="mic">Mic</span>
+              <span data-mod="env">Env</span>
+              <span data-mod="gps">GPS</span>
+              <span data-mod="lora">LoRa</span>
+              <span data-mod="ethernet">Ethernet</span>
+            </div>
+          </div>
+        </div>
+
+        <form class="config-panel" id="configPanel" onsubmit="return false;">
+            <p class="panel-kicker">Tune parameters</p>
+            <div class="config-block">
+              <label for="deploySelect">Deployment site</label>
+              <select id="deploySelect">
+                <option value="backyard">Backyard</option>
+                <option value="forest" selected>Forest edge</option>
+                <option value="greenhouse">Greenhouse</option>
+                <option value="trail">Trail</option>
+              </select>
+              <p class="hint">Matches field deployment options on the hardware schema.</p>
+            </div>
+
+            <div class="config-block">
+              <label for="powerSelect">Power</label>
+              <select id="powerSelect">
+                <option value="solar" selected>Solar 12V in</option>
+                <option value="battery">Battery 7.4–14.8V</option>
+                <option value="usbc">USB-C / tethered</option>
+              </select>
+            </div>
+
+            <div class="config-block">
+              <span class="label-like">Modules</span>
+              <div class="check-grid">
+                <label><input type="checkbox" id="camToggle" checked /> Camera</label>
+                <label><input type="checkbox" id="micToggle" checked /> Mic array</label>
+                <label><input type="checkbox" id="envToggle" checked /> Temp / humidity / pressure</label>
+                <label><input type="checkbox" id="gpsToggle" /> Optional GPS</label>
+                <label><input type="checkbox" id="loraToggle" /> Optional LoRa</label>
+                <label><input type="checkbox" id="ethToggle" checked /> Ethernet</label>
+              </div>
+            </div>
+
+            <div class="config-row">
+              <div class="config-block">
+                <label for="storageSelect">Local storage</label>
+                <select id="storageSelect">
+                  <option value="sd">microSD</option>
+                  <option value="ssd" selected>SSD</option>
+                </select>
+              </div>
+              <div class="config-block">
+                <label for="syncSelect">Sync / data path</label>
+                <select id="syncSelect">
+                  <option value="local" selected>Local-only AI</option>
+                  <option value="peer">PeerWeave P2P</option>
+                  <option value="services">Data services</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="config-block">
+              <span class="label-like">Status LEDs</span>
+              <div class="check-grid leds">
+                <label><input type="checkbox" id="ledPwr" checked /> PWR</label>
+                <label><input type="checkbox" id="ledNet" checked /> NET</label>
+                <label><input type="checkbox" id="ledAi" checked /> AI</label>
+                <label><input type="checkbox" id="ledRec" /> REC</label>
+              </div>
+            </div>
+
+            <div class="config-block inline-check">
+              <label><input type="checkbox" id="autoRotate" checked /> Auto-rotate</label>
+              <button type="button" class="btn btn-ghost btn-small" id="resetView">Reset view</button>
+            </div>
+
+            <p class="config-summary" id="configSummary">Forest edge · Solar 12V + battery · Local-only (private)</p>
+
+            <div class="cta-row">
+              <a class="btn btn-primary" id="requestConfigured" href="mailto:lucas@manticore.email">Request this configuration</a>
+              <a class="btn btn-ghost" id="requestIntegrate" href="mailto:lucas@manticore.email">Integrate data services</a>
+            </div>
+        </form>
       </div>
     </section>
 
@@ -80,8 +187,8 @@
             </li>
           </ul>
           <div class="cta-row" style="margin-top: 1.75rem">
-            <a class="btn btn-primary" href="#get-started">Request install</a>
-            <a class="btn btn-ghost" href="field-node.html">View product image</a>
+            <a class="btn btn-primary" data-mail-intent="install" href="mailto:lucas@manticore.email?subject=Manticore%20Field%20Node%20%E2%80%94%20install%20request">Request install</a>
+            <a class="btn btn-ghost" href="#configure">Open 3D configurator</a>
           </div>
         </div>
         <figure class="schema-frame">
@@ -127,7 +234,7 @@
             </li>
           </ul>
           <div class="cta-row" style="margin-top: 1.75rem">
-            <a class="btn btn-primary" href="#get-started">Talk about integration</a>
+            <a class="btn btn-primary" data-mail-intent="integrate" href="mailto:lucas@manticore.email?subject=Manticore%20%E2%80%94%20data%20services%20integration">Talk about integration</a>
             <a class="btn btn-ghost" href="atlas.html" target="_blank" rel="noopener noreferrer">Open habitat atlas demo</a>
           </div>
         </div>
@@ -155,13 +262,13 @@
             <span class="path-tag">Path A</span>
             <h3>Install a Field Node</h3>
             <p>We help you site, mount, and power a node in your habitat. Local dashboard from day one. Your data stays on the device until you decide otherwise.</p>
-            <a class="btn btn-primary" href="#get-started">Start an install</a>
+            <a class="btn btn-primary" data-mail-intent="install" href="mailto:lucas@manticore.email?subject=Manticore%20Field%20Node%20%E2%80%94%20install%20request">Start an install</a>
           </article>
           <article class="path" role="listitem">
             <span class="path-tag">Path B</span>
             <h3>Integrate data services</h3>
             <p>Connect existing sensors or partner nodes to Manticore observation schemas, sync, and habitat analytics — without replacing the gear you already trust.</p>
-            <a class="btn btn-ghost" href="#get-started">Plan an integration</a>
+            <a class="btn btn-ghost" data-mail-intent="integrate" href="mailto:lucas@manticore.email?subject=Manticore%20%E2%80%94%20data%20services%20integration">Plan an integration</a>
           </article>
         </div>
 
@@ -189,10 +296,10 @@
       <div class="section-inner">
         <p class="section-kicker">Get started</p>
         <h2>Put a Manticore in the habitat that matters</h2>
-        <p class="section-lead">Tell us where you want to install — or what systems you need to integrate. One product, one service line: Field Nodes and the data layer around them.</p>
+        <p class="section-lead">Email <a href="mailto:lucas@manticore.email">lucas@manticore.email</a> to install a Field Node or integrate data services. Include your site notes — or send a configuration from the 3D tuner above.</p>
         <div class="cta-row">
-          <a class="btn btn-primary" href="mailto:?subject=Manticore%20Field%20Node%20install&body=Habitat%20%2F%20site%3A%0AUse%20case%3A%0A">Request an install</a>
-          <a class="btn btn-ghost" href="mailto:?subject=Manticore%20data%20services%20integration&body=Systems%20to%20integrate%3A%0ASites%20%2F%20volume%3A%0A">Integrate data services</a>
+          <a class="btn btn-primary" id="requestInstall" href="mailto:lucas@manticore.email?subject=Manticore%20Field%20Node%20%E2%80%94%20install%20request">Request an install</a>
+          <a class="btn btn-ghost" data-mail-intent="integrate" href="mailto:lucas@manticore.email?subject=Manticore%20%E2%80%94%20data%20services%20integration">Integrate data services</a>
         </div>
       </div>
     </section>
@@ -200,15 +307,16 @@
 
   <footer class="footer">
     <div class="footer-inner">
-      <span>© Manticore · Field Node · Habitat intelligence</span>
+      <span>© Manticore · <a href="mailto:lucas@manticore.email">lucas@manticore.email</a></span>
       <span>
         <a href="atlas.html" target="_blank" rel="noopener noreferrer">Atlas demo</a>
         ·
-        <a href="field-node.html">Product shot</a>
+        <a href="#configure">3D Node</a>
         ·
         <a href="ATTRIBUTION.md">Attribution</a>
       </span>
     </div>
   </footer>
+  <script type="module" src="node-viewer.js"></script>
 </body>
 </html>

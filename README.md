@@ -15,9 +15,24 @@ Open `http://localhost:8080`.
 
 | Route | What |
 |-------|------|
-| `/` | Product site — install vs integrate |
+| `/` | Product site — 3D configurator, install vs integrate |
 | `/field-node.html` | Full-viewport product image |
 | `/atlas.html` | WildAtlas globe / habitat demo (prototype) |
+
+Business / service requests: **lucas@manticore.email**
+
+## Deploy on Render
+
+This repo is a static site (no build step).
+
+1. Push `main` to GitHub (includes the ~57MB Field Node `.glb`).
+2. In [Render](https://dashboard.render.com): **New → Static Site** → connect `Lucastil2212/wildatlas-prototype`.
+3. Settings:
+   - **Build command:** leave empty (or `true`)
+   - **Publish directory:** `.`
+4. Or use the Blueprint: **New → Blueprint** → select the repo (`render.yaml`).
+
+Auto-deploys on every push to `main`.
 
 ## Assets
 
