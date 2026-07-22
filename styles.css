@@ -534,9 +534,9 @@ button:focus-visible, input:focus-visible, select:focus-visible {
 }
 .place-card.bump { animation: card-bump .42s var(--ease); }
 @keyframes card-bump { 0%{transform:translateY(8px);opacity:.5}100%{transform:translateY(0);opacity:1} }
-.place-image-wrap { position: relative; border-radius: 18px; overflow: hidden; min-width: 0; }
-.place-image-wrap::after { content:""; position:absolute; inset:0; background:linear-gradient(180deg,transparent 35%,rgba(2,10,8,.72)); }
-.place-image-wrap img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 7s ease; }
+.place-image-wrap { position: relative; border-radius: 18px; overflow: hidden; min-width: 0; background: #0a1a15; }
+.place-image-wrap::after { content:""; position:absolute; inset:0; background:linear-gradient(180deg,transparent 35%,rgba(2,10,8,.72)); pointer-events:none; }
+.place-image-wrap img { width: 100%; height: 100%; object-fit: contain; object-position: center; display: block; transition: transform 7s ease; }
 .place-card:hover .place-image-wrap img { transform: scale(1.05); }
 .image-badge { position: absolute; z-index: 2; left: 10px; top: 10px; padding: 6px 8px; border-radius: 8px; background: rgba(3,14,12,.66); border: 1px solid rgba(255,255,255,.14); color: #e4eee8; font-size: 7px; font-weight: 850; letter-spacing: .12em; backdrop-filter: blur(9px); }
 .place-content { padding: 8px 9px 7px 0; min-width: 0; display: flex; flex-direction: column; }
@@ -784,7 +784,7 @@ button:focus-visible, input:focus-visible, select:focus-visible {
 }
 .guide-panel.open { transform: translateX(0); }
 .guide-scroll { height: 100%; overflow: auto; overscroll-behavior: contain; }
-.guide-hero { position: relative; min-height: 330px; padding: 26px; display: flex; align-items: flex-end; background-size: cover; background-position: center; }
+.guide-hero { position: relative; min-height: 330px; padding: 26px; display: flex; align-items: flex-end; background-color: #071410; background-size: contain; background-repeat: no-repeat; background-position: center; }
 .guide-hero-shade { position:absolute; inset:0; background:linear-gradient(180deg,rgba(1,7,6,.12),rgba(2,10,8,.92)); }
 .guide-close { position:absolute; z-index:2; right:20px; top:20px; width:42px; height:42px; border:1px solid rgba(255,255,255,.18); border-radius:13px; background:rgba(3,14,12,.6); color:#fff; cursor:pointer; backdrop-filter:blur(9px); font-size:20px; }
 .guide-hero-copy { position:relative; z-index:1; max-width:580px; }
@@ -812,7 +812,7 @@ button:focus-visible, input:focus-visible, select:focus-visible {
 .species-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:11px; }
 .species-card { position:relative; min-height:225px; overflow:hidden; padding:0; border:1px solid var(--line); border-radius:18px; background:#102821; cursor:pointer; text-align:left; }
 .species-card:hover { border-color:rgba(216,255,105,.3); transform:translateY(-2px); }
-.species-card-media { position:absolute; inset:0; background-size:cover; background-position:center; transition:transform .45s var(--ease); }
+.species-card-media { position:absolute; inset:0; background-color:#0a1a15; background-size:contain; background-repeat:no-repeat; background-position:center; transition:transform .45s var(--ease); }
 .species-card:hover .species-card-media { transform:scale(1.035); }
 .species-card-media::after { content:""; position:absolute; inset:0; background:linear-gradient(180deg,rgba(2,10,8,.05) 20%,rgba(2,10,8,.92) 90%); }
 .species-card-icon { position:absolute; left:18px; top:17px; z-index:1; font-size:34px; filter:drop-shadow(0 5px 12px rgba(0,0,0,.45)); }
@@ -878,7 +878,7 @@ button:focus-visible, input:focus-visible, select:focus-visible {
   animation: panel-in .32s var(--ease) both;
 }
 .species-close { position:absolute; z-index:4; right:18px; top:18px; width:40px; height:40px; border:1px solid var(--line); border-radius:12px; background:rgba(4,16,13,.7); color:#fff; cursor:pointer; font-size:20px; backdrop-filter:blur(8px); }
-.species-visual { position:relative; min-width:0; background-size:cover; background-position:center; display:flex; align-items:center; justify-content:center; }
+.species-visual { position:relative; min-width:0; background-color:#071410; background-size:contain; background-repeat:no-repeat; background-position:center; display:flex; align-items:center; justify-content:center; }
 .species-visual-shade { position:absolute; inset:0; background:linear-gradient(180deg,rgba(2,8,7,.05),rgba(2,8,7,.7)); }
 .species-big-icon { position:relative; z-index:1; font-size:110px; filter:drop-shadow(0 20px 24px rgba(0,0,0,.45)); }
 .photo-credit { position:absolute; z-index:2; left:16px; right:16px; bottom:14px; color:rgba(235,245,239,.65); font-size:7px; line-height:1.4; }
