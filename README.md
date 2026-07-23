@@ -1,8 +1,8 @@
-# Manticore Field Node
+# Manticore
 
-**Install a Field Node in your habitat — or integrate with Manticore data services.**
+**Install a Field Node in your habitat — or preorder NestVue for the backyard nest.**
 
-Manticore is a product and service business for private, local-first wildlife observation and habitat monitoring. The Field Node runs edge AI on-device; optional data services handle sync, schemas, and multi-site intelligence when you want a network.
+Manticore is a product and service business for private, local-first wildlife observation and habitat monitoring. The Field Node runs edge AI on-device; NestVue brings autonomous nest monitoring to birdhouses; optional data services handle sync, schemas, and multi-site intelligence when you want a network.
 
 ## Run it locally
 
@@ -15,11 +15,12 @@ Open `http://localhost:8080`.
 
 | Route | What |
 |-------|------|
-| `/` | Product site — 3D configurator, install vs integrate |
-| `/field-node.html` | Full-viewport product image |
+| `/` | Field Node product site — 3D configurator, install vs integrate |
+| `/nestvue` | NestVue Smart Birdhouse — features + preorder |
+| `/field-node.html` | Full-viewport Field Node image |
 | `/atlas` | WildAtlas globe / habitat demo (prototype) |
 
-Business / service requests: **lucas@manticore.email**
+Business / preorders: **lucas@manticore.email**
 
 ## Deploy on Render
 
@@ -36,11 +37,17 @@ Auto-deploys on every push to `main`.
 
 ## Assets
 
-Product imagery and schemas live in [`assets/manticore-field-node/`](assets/manticore-field-node/):
+Field Node imagery and schemas live in [`assets/manticore-field-node/`](assets/manticore-field-node/):
 
 - `Manticore-Field-Node.png` — hardware hero
 - `hardware_schema.png` — sensors, compute, power, deployment
 - `software_data_schema.png` — capture → classify → signed log → sync
+
+NestVue imagery lives in [`assets/nestvue-smart-birdhouse/`](assets/nestvue-smart-birdhouse/):
+
+- `nestvue-product.png` — hero product shot
+- `nestvue-specs.png` — dimensions and cutaway
+- `nestvue-cutaway.png` — mounted solar / field view
 
 ## Atlas demo
 

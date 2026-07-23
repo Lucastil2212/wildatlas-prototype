@@ -1,0 +1,197 @@
+/* NestVue product page — extends manticore.css */
+
+.nestvue-page .brand span {
+  color: var(--gold);
+}
+
+.nestvue-hero .hero-visual img {
+  object-position: 62% 40%;
+  transform: scale(1.08);
+}
+
+.nestvue-hero .hero-visual::after {
+  background:
+    linear-gradient(180deg, rgba(10, 12, 14, 0.42) 0%, rgba(10, 12, 14, 0.18) 32%, rgba(10, 12, 14, 0.78) 70%, rgba(10, 12, 14, 0.97) 100%),
+    radial-gradient(ellipse 65% 50% at 72% 38%, rgba(201, 164, 106, 0.14), transparent 58%);
+}
+
+.hero-brand {
+  margin: 0 0 0.55rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 3.2vw, 2rem);
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink);
+  animation: fadeUp 700ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+.nestvue-hero .hero-copy h1 {
+  max-width: 16ch;
+}
+
+.nestvue-hero .hero-copy h1 em {
+  color: var(--gold);
+}
+
+.feature-grid {
+  list-style: none;
+  margin: 2.25rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .feature-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 980px) {
+  .feature-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.feature-grid li {
+  padding: 1.15rem 0 0;
+  border-top: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  animation: fadeUp 800ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+.feature-grid li:nth-child(2) { animation-delay: 60ms; }
+.feature-grid li:nth-child(3) { animation-delay: 120ms; }
+.feature-grid li:nth-child(4) { animation-delay: 180ms; }
+.feature-grid li:nth-child(5) { animation-delay: 240ms; }
+.feature-grid li:nth-child(6) { animation-delay: 300ms; }
+
+.feature-grid strong {
+  font-family: var(--font-display);
+  font-size: 1.08rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.feature-grid span {
+  color: var(--muted);
+  font-size: 0.98rem;
+  line-height: 1.45;
+}
+
+.nestvue-frame img {
+  object-fit: cover;
+  max-height: min(68vh, 640px);
+  background:
+    radial-gradient(ellipse at 50% 30%, rgba(201, 164, 106, 0.12), transparent 55%),
+    linear-gradient(180deg, rgba(18, 22, 26, 0.9), rgba(10, 12, 14, 0.95));
+}
+
+.spec-list {
+  margin: 1.75rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 0.85rem;
+}
+
+.spec-list > div {
+  display: grid;
+  grid-template-columns: 6.5rem 1fr;
+  gap: 0.75rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--line);
+  align-items: baseline;
+}
+
+.spec-list dt {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.spec-list dd {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.98rem;
+}
+
+.nestvue-preorder {
+  max-width: 40rem;
+}
+
+.preorder-note {
+  margin: 1.35rem 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.preorder-note a {
+  color: var(--accent);
+}
+
+/* Products strip on Field Node home */
+.products-strip {
+  margin-top: 2.5rem;
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 720px) {
+  .products-strip {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  padding: 1.25rem 0 0;
+  border-top: 1px solid var(--line);
+  text-decoration: none;
+  color: inherit;
+  transition: color 160ms ease;
+}
+
+.product-card:hover strong {
+  color: var(--accent);
+}
+
+.product-card .product-tag {
+  font-family: var(--font-display);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.product-card strong {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 750;
+  letter-spacing: -0.02em;
+}
+
+.product-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.98rem;
+  max-width: 34ch;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nestvue-hero .hero-visual img,
+  .feature-grid li,
+  .hero-brand {
+    animation: none;
+  }
+}
