@@ -986,6 +986,26 @@ button:focus-visible, input:focus-visible, select:focus-visible {
 .credits-box { margin-top:19px; padding:15px; border-radius:14px; background:rgba(93,224,197,.055); border:1px solid rgba(93,224,197,.13); }
 .credits-box strong { font-size:10px; }
 .credits-box p { margin:6px 0 0; color:var(--muted); font-size:9px; line-height:1.55; }
+.products-box .product-links {
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:0.55rem 0.75rem;
+  margin-top:10px;
+  font-size:13px;
+  font-weight:700;
+  letter-spacing:.01em;
+}
+.products-box .product-links a {
+  color:var(--lime);
+  text-decoration:none;
+}
+.products-box .product-links a:hover {
+  text-decoration:underline;
+  text-underline-offset:0.18em;
+}
+.products-box .product-links span { color:var(--muted); font-weight:500; }
+.products-box > p:last-child { margin-top:10px; }
 
 .toast {
   position:fixed;
