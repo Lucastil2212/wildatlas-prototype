@@ -691,11 +691,13 @@
     }
     location.species.forEach((species) => {
       const media = SPECIES_PHOTOS[species.id];
-      if (!media) return;
-      if (!species.photo) species.photo = media.photo;
-      if (!species.photoCredit) species.photoCredit = media.photoCredit;
-      if (!species.sourceUrl) species.sourceUrl = media.sourceUrl;
-      if (!species.taxonId) species.taxonId = media.taxonId;
+      if (media) {
+        if (!species.photo) species.photo = media.photo;
+        if (!species.photoCredit) species.photoCredit = media.photoCredit;
+        if (!species.sourceUrl) species.sourceUrl = media.sourceUrl;
+        if (!species.taxonId) species.taxonId = media.taxonId;
+      }
+      if (species.photo) species.photo = upgradePhotoUrl(species.photo);
     });
     const habitatExtra = HABITAT_EXTRAS[location.id];
     const biomeDefaults = BIOME_HABITAT_DEFAULTS[location.biomeKey] || {};
@@ -713,9 +715,58 @@
 
   const LOCATION_BY_ID = new Map(LOCATIONS.map((location) => [location.id, location]));
   const SPECIES_INDEX = new Map();
+  const SPECIES_BY_TAXON = new Map();
+  const SPECIES_BY_SCIENTIFIC = new Map();
   LOCATIONS.forEach((location) => location.species.forEach((species) => {
     SPECIES_INDEX.set(species.id, { species, location });
+    if (species.taxonId != null) SPECIES_BY_TAXON.set(String(species.taxonId), { species, location });
+    if (species.scientific) SPECIES_BY_SCIENTIFIC.set(species.scientific.trim().toLowerCase(), { species, location });
   }));
+
+  function upgradePhotoUrl(url) {
+    if (!url || typeof url !== "string") return url;
+    return url
+      .replace(/\/(square|small|medium|thumb)\.(jpe?g|png|webp)(\?.*)?$/i, "/large.$2$3")
+      .replace(/\/(square|small|medium|thumb)\//i, "/large/");
+  }
+
+  function preferPhoto(...candidates) {
+    for (const candidate of candidates) {
+      if (candidate) return upgradePhotoUrl(candidate);
+    }
+    return "";
+  }
+
+  /** Merge card/live/journal clicks with curated encyclopedia entries from our data. */
+  function resolveSpeciesRecord(incoming) {
+    if (!incoming) return incoming;
+    let match = SPECIES_INDEX.get(incoming.id) || null;
+    if (!match && incoming.taxonId != null) match = SPECIES_BY_TAXON.get(String(incoming.taxonId)) || null;
+    if (!match && incoming.scientific) {
+      match = SPECIES_BY_SCIENTIFIC.get(String(incoming.scientific).trim().toLowerCase()) || null;
+    }
+    const media = SPECIES_PHOTOS[incoming.id] || (match ? SPECIES_PHOTOS[match.species.id] : null) || null;
+    const curated = match?.species || null;
+    const location = incoming.parentLocation || match?.location || state.currentLocation;
+    const merged = {
+      ...incoming,
+      parentLocation: location,
+      fromCatalog: Boolean(curated),
+      count: incoming.count,
+      live: Boolean(incoming.live),
+    };
+    if (curated) {
+      ["id", "common", "scientific", "icon", "group", "diet", "activity", "adaptation", "curious", "explorer", "naturalist", "role", "look", "quiz"].forEach((key) => {
+        if (curated[key] != null && curated[key] !== "") merged[key] = curated[key];
+      });
+      merged.id = curated.id;
+    }
+    merged.photo = preferPhoto(curated?.photo, media?.photo, incoming.photo, location?.image);
+    merged.photoCredit = curated?.photoCredit || media?.photoCredit || incoming.photoCredit || "";
+    merged.sourceUrl = curated?.sourceUrl || media?.sourceUrl || incoming.sourceUrl || null;
+    merged.taxonId = curated?.taxonId || media?.taxonId || incoming.taxonId || null;
+    return merged;
+  }
 
   const els = {
     canvas: $("#globeCanvas"),
@@ -755,6 +806,7 @@
     profileLevelLabel: $("#profileLevelLabel"),
     speciesOverlay: $("#speciesOverlay"),
     speciesVisual: $("#speciesVisual"),
+    speciesPhoto: $("#speciesPhoto"),
     speciesBigIcon: $("#speciesBigIcon"),
     speciesGroup: $("#speciesGroup"),
     speciesName: $("#speciesName"),
@@ -1817,17 +1869,18 @@
   }
 
   function speciesCardHTML(species, location, live = false) {
-    const image = species.photo || location.image || biomeFor(location).image;
+    const resolved = resolveSpeciesRecord({ ...species, parentLocation: location });
+    const image = preferPhoto(resolved.photo, location.image, biomeFor(location).image);
     const count = species.count ? `<span class="species-card-count">${species.count.toLocaleString()} observations</span>` : live ? `<span class="species-card-count">LIVE RECORD</span>` : "";
     return `
       <button class="species-card" type="button" data-species-id="${escapeHTML(species.id)}">
         <span class="species-card-media" style="background-image:url('${escapeHTML(image)}')"></span>
         ${count}
-        <span class="species-card-icon" aria-hidden="true">${escapeHTML(species.icon || "◌")}</span>
+        <span class="species-card-icon" aria-hidden="true">${escapeHTML(resolved.icon || species.icon || "◌")}</span>
         <span class="species-card-copy">
-          <small>${escapeHTML((species.group || "Species").toUpperCase())}${live ? " · LIVE" : ""}</small>
-          <strong>${escapeHTML(species.common)}</strong>
-          <em>${escapeHTML(species.scientific || "")}</em>
+          <small>${escapeHTML((resolved.group || species.group || "Species").toUpperCase())}${live ? " · LIVE" : ""}</small>
+          <strong>${escapeHTML(resolved.common || species.common)}</strong>
+          <em>${escapeHTML(resolved.scientific || species.scientific || "")}</em>
         </span>
       </button>
     `;
@@ -1967,7 +2020,7 @@
       icon: iconFromGroup(group),
       group,
       count: result.count || 0,
-      photo: photo.medium_url || photo.url || photo.square_url || biomeFor(location).image,
+      photo: preferPhoto(photo.large_url, photo.medium_url, photo.url, photo.square_url, biomeFor(location).image),
       photoCredit: photo.attribution || (photo.license_code ? `Photo license: ${photo.license_code}` : "Photo via iNaturalist"),
       sourceUrl: taxon.id ? `https://www.inaturalist.org/taxa/${taxon.id}` : null,
       diet: "See species source",
@@ -2034,35 +2087,52 @@
   }
 
   function openSpecies(species) {
-    state.currentSpecies = species;
-    if (!state.progress.openedSpecies.includes(species.id)) {
-      state.progress.openedSpecies.push(species.id);
-      awardXP(10, `Opened ${species.common}`);
+    const resolved = resolveSpeciesRecord(species);
+    state.currentSpecies = resolved;
+    if (!state.progress.openedSpecies.includes(resolved.id)) {
+      state.progress.openedSpecies.push(resolved.id);
+      awardXP(10, `Opened ${resolved.common}`);
     }
-    const location = species.parentLocation || state.currentLocation;
+    const location = resolved.parentLocation || state.currentLocation;
     const biome = biomeFor(location);
-    els.speciesVisual.style.backgroundImage = `url("${species.photo || location.image || biome.image}")`;
-    els.speciesBigIcon.textContent = species.icon || "◌";
-    els.speciesGroup.textContent = `${(species.group || "Species").toUpperCase()}${species.live ? " · LIVE COMMUNITY RECORD" : ""}`;
-    els.speciesName.textContent = species.common;
-    els.speciesScientific.textContent = species.scientific || "";
+    const photoUrl = preferPhoto(resolved.photo, location.image, biome.image);
+    const hasPhoto = Boolean(photoUrl);
+    els.speciesVisual.classList.toggle("has-photo", hasPhoto);
+    els.speciesVisual.style.backgroundImage = "";
+    if (els.speciesPhoto) {
+      els.speciesPhoto.src = photoUrl || "";
+      els.speciesPhoto.alt = hasPhoto
+        ? `${resolved.common}${resolved.scientific ? ` (${resolved.scientific})` : ""}`
+        : "";
+      els.speciesPhoto.hidden = !hasPhoto;
+    }
+    els.speciesBigIcon.textContent = resolved.icon || "◌";
+    const sourceTag = resolved.fromCatalog
+      ? (resolved.live ? " · CATALOG + LIVE PHOTO" : " · WILDATLAS CATALOG")
+      : (resolved.live ? " · LIVE COMMUNITY RECORD" : "");
+    els.speciesGroup.textContent = `${(resolved.group || "Species").toUpperCase()}${sourceTag}`;
+    els.speciesName.textContent = resolved.common;
+    els.speciesScientific.textContent = resolved.scientific || "";
     els.personalizedBadge.textContent = `${state.progress.prefs.level.toUpperCase()} LENS`;
-    els.speciesLede.textContent = speciesLedeFor(species);
+    els.speciesLede.textContent = speciesLedeFor(resolved);
     els.speciesFacts.innerHTML = [
-      ["Diet", species.diet || "Varies"], ["Activity", species.activity || "Varies"], ["Adaptation", species.adaptation || "Study the field marks"]
+      ["Diet", resolved.diet || "Varies"],
+      ["Activity", resolved.activity || "Varies"],
+      ["Adaptation", resolved.adaptation || "Study the field marks"]
     ].map(([label, value]) => `<div class="fact-tile"><span>${escapeHTML(label)}</span><strong>${escapeHTML(value)}</strong></div>`).join("");
-    els.speciesRole.textContent = species.role || "This species is one participant in a larger local food web and habitat network.";
-    els.speciesLook.textContent = species.look || "Use multiple field marks, behavior, habitat, and season before making an identification.";
-    const credit = species.photoCredit || (species.live ? "Photo and record via iNaturalist" : "Illustrated habitat backdrop · WildAtlas prototype");
-    if (species.sourceUrl) {
-      els.photoCredit.innerHTML = `${escapeHTML(credit)} · <a href="${escapeHTML(species.sourceUrl)}" target="_blank" rel="noopener noreferrer">iNaturalist taxon</a>`;
+    els.speciesRole.textContent = resolved.role || "This species is one participant in a larger local food web and habitat network.";
+    els.speciesLook.textContent = resolved.look || "Use multiple field marks, behavior, habitat, and season before making an identification.";
+    const credit = resolved.photoCredit
+      || (resolved.live ? "Photo and record via iNaturalist" : "WildAtlas catalog imagery");
+    if (resolved.sourceUrl) {
+      els.photoCredit.innerHTML = `${escapeHTML(credit)} · <a href="${escapeHTML(resolved.sourceUrl)}" target="_blank" rel="noopener noreferrer">Source</a>`;
     } else {
       els.photoCredit.textContent = credit;
     }
-    const saved = state.progress.savedSpecies.some((entry) => entry.id === species.id);
+    const saved = state.progress.savedSpecies.some((entry) => entry.id === resolved.id);
     els.saveSpeciesButton.classList.toggle("saved", saved);
     els.saveSpeciesButton.textContent = saved ? "★ Saved" : "☆ Save";
-    renderQuiz(species);
+    renderQuiz(resolved);
     openOverlay("species");
     setTimeout(() => $("[data-close='species']", els.speciesOverlay)?.focus(), 50);
   }

@@ -878,9 +878,43 @@ button:focus-visible, input:focus-visible, select:focus-visible {
   animation: panel-in .32s var(--ease) both;
 }
 .species-close { position:absolute; z-index:4; right:18px; top:18px; width:40px; height:40px; border:1px solid var(--line); border-radius:12px; background:rgba(4,16,13,.7); color:#fff; cursor:pointer; font-size:20px; backdrop-filter:blur(8px); }
-.species-visual { position:relative; min-width:0; background-color:#071410; background-size:contain; background-repeat:no-repeat; background-position:center; display:flex; align-items:center; justify-content:center; }
-.species-visual-shade { position:absolute; inset:0; background:linear-gradient(180deg,rgba(2,8,7,.05),rgba(2,8,7,.7)); }
-.species-big-icon { position:relative; z-index:1; font-size:110px; filter:drop-shadow(0 20px 24px rgba(0,0,0,.45)); }
+.species-visual {
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  background: #071410;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.species-photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  display: none;
+  background: #071410;
+}
+.species-visual.has-photo .species-photo { display: block; }
+.species-visual.has-photo .species-big-icon { display: none; }
+.species-visual-shade {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(180deg, rgba(2, 8, 7, 0.02), rgba(2, 8, 7, 0.55));
+}
+.species-visual.has-photo .species-visual-shade {
+  background: linear-gradient(180deg, transparent 55%, rgba(2, 8, 7, 0.72));
+}
+.species-big-icon {
+  position: relative;
+  z-index: 1;
+  font-size: 110px;
+  filter: drop-shadow(0 20px 24px rgba(0, 0, 0, 0.45));
+}
 .photo-credit { position:absolute; z-index:2; left:16px; right:16px; bottom:14px; color:rgba(235,245,239,.65); font-size:7px; line-height:1.4; }
 .photo-credit a { color:rgba(235,245,239,.9); text-decoration:underline; text-underline-offset:2px; }
 .species-body { padding:38px 40px 60px; overflow:auto; }
@@ -1064,7 +1098,8 @@ button:focus-visible, input:focus-visible, select:focus-visible {
   .species-grid { grid-template-columns:1fr; }
   .species-card { min-height:205px; }
   .story-grid { grid-template-columns:1fr; }
-  .species-modal { width:calc(100vw - 16px); height:calc(100vh - 16px); grid-template-columns:1fr; grid-template-rows:34% 66%; border-radius:20px; }
+  .species-modal { width:calc(100vw - 16px); height:calc(100vh - 16px); grid-template-columns:1fr; grid-template-rows:minmax(42%, 46%) minmax(0, 1fr); border-radius:20px; }
+  .species-body { padding: 22px 18px 40px; }
   .species-body { padding:24px 20px 44px; }
   .species-body h2 { font-size:34px; }
   .species-big-icon { font-size:80px; }
