@@ -88,11 +88,15 @@
       </aside>
 
       <section class="place-card" id="placeCard" aria-label="Selected location">
+        <button type="button" class="place-sheet-handle" id="placeSheetToggle" aria-expanded="false" aria-controls="placeContent">
+          <span class="sheet-grip" aria-hidden="true"></span>
+          <span class="sheet-toggle-label">Expand details</span>
+        </button>
         <div class="place-image-wrap">
           <img id="placeImage" src="assets/biome-rainforest.jpg" alt="Stylized tropical rainforest habitat" />
           <span class="image-badge" id="placeImageBadge">CURATED JOURNEY</span>
         </div>
-        <div class="place-content">
+        <div class="place-content" id="placeContent">
           <div class="place-kicker">
             <span class="biome-dot" id="biomeDot"></span>
             <span id="placeBiome">Tropical rainforest</span>
@@ -110,10 +114,14 @@
           <div class="place-weather" id="placeWeather" aria-live="polite">
             <span class="weather-loading">Loading local weather…</span>
           </div>
+          <div class="place-acoustic" id="placeAcoustic" aria-live="polite">
+            <span class="acoustic-loading">Resolving local soundscape…</span>
+          </div>
           <div class="place-stats" id="placeStats"></div>
           <div class="place-actions">
-            <button class="primary-button compact" id="openGuideButton">Open local field guide <span aria-hidden="true">→</span></button>
-            <button class="text-button" id="dropPinHint">Click anywhere on Earth</button>
+            <button class="primary-button compact" id="openGuideButton">Open field guide <span aria-hidden="true">→</span></button>
+            <button class="listen-button" id="listenPlaceButton" type="button">Listen</button>
+            <button class="text-button" id="dropPinHint">Tap the globe to land</button>
           </div>
         </div>
       </section>
@@ -130,7 +138,7 @@
       <span><strong>Drag</strong> to spin · <strong>Scroll</strong> to zoom · <strong>Click</strong> to land</span>
     </div>
 
-    <div class="data-credit">Earth imagery: NASA · Weather: Open-Meteo · Wildlife: iNaturalist when online</div>
+    <div class="data-credit">Earth imagery: NASA · Weather: Open-Meteo · Wildlife + acoustics: iNaturalist / GBIF · Acoustic DB: Manticore</div>
 
     <div class="profile-popover" id="profilePopover" hidden>
       <div class="popover-head">
@@ -183,6 +191,7 @@
 
     <aside class="guide-panel" id="guidePanel" aria-hidden="true" aria-label="Local field guide">
       <div class="guide-scroll">
+        <div class="guide-sheet-handle" aria-hidden="true"><span class="sheet-grip"></span></div>
         <header class="guide-hero" id="guideHero">
           <div class="guide-hero-shade"></div>
           <button class="guide-close" id="closeGuide" aria-label="Close field guide">×</button>
@@ -201,6 +210,7 @@
           </div>
           <div class="guide-tools">
             <button id="refreshLiveSpecies" class="sync-button"><span class="sync-dot"></span><span id="syncLabel">Load live sightings</span></button>
+            <button id="refreshAcoustic" class="sync-button acoustic-sync" type="button"><span class="sync-dot"></span><span id="acousticSyncLabel">Browse live soundscape</span></button>
             <label class="radius-control">Radius
               <select id="radiusSelect">
                 <option value="25">25 km</option>
@@ -279,7 +289,7 @@
         </div>
         <div class="credits-box">
           <strong>Prototype data and imagery</strong>
-          <p>NASA Blue Marble earth texture; optional live observations and photo attribution from iNaturalist; optional place search from Open-Meteo / GeoNames. Curated educational copy is illustrative and should be editorially reviewed before production use.</p>
+          <p>NASA Blue Marble earth texture; optional live observations, photos, and sounds from iNaturalist; GBIF sound occurrences for live acoustic browse; Open-Meteo / GeoNames for places and weather. Manticore Acoustic seeds a local ecosystem soundscape database and falls back to live archives when a pin is outside coverage. Curated educational copy is illustrative and should be editorially reviewed before production use.</p>
         </div>
       </section>
     </div>
@@ -291,6 +301,8 @@
   <script src="data/places.js" defer></script>
   <script src="data/habitat-extras.js" defer></script>
   <script src="data/content.js" defer></script>
+  <script src="data/acoustic-ecosystems.js" defer></script>
+  <script src="data/acoustic-service.js" defer></script>
   <script src="app.js" defer></script>
 </body>
 </html>

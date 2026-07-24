@@ -782,9 +782,13 @@
     placeRegion: $("#placeRegion"),
     placeSummary: $("#placeSummary"),
     placeWeather: $("#placeWeather"),
+    placeAcoustic: $("#placeAcoustic"),
     placeStats: $("#placeStats"),
+    placeSheetToggle: $("#placeSheetToggle"),
+    placeContent: $("#placeContent"),
     savePlaceButton: $("#savePlaceButton"),
     openGuideButton: $("#openGuideButton"),
+    listenPlaceButton: $("#listenPlaceButton"),
     guidePanel: $("#guidePanel"),
     guideHero: $("#guideHero"),
     guideEyebrow: $("#guideEyebrow"),
@@ -793,7 +797,9 @@
     guideMeta: $("#guideMeta"),
     guideContent: $("#guideContent"),
     syncLabel: $("#syncLabel"),
+    acousticSyncLabel: $("#acousticSyncLabel"),
     refreshLiveSpecies: $("#refreshLiveSpecies"),
+    refreshAcoustic: $("#refreshAcoustic"),
     radiusSelect: $("#radiusSelect"),
     searchOverlay: $("#searchOverlay"),
     searchInput: $("#searchInput"),
@@ -861,11 +867,17 @@
     liveStatus: new Map(),
     weatherCache: new Map(),
     weatherStatus: new Map(),
+    acousticCache: new Map(),
+    acousticStatus: new Map(),
+    acousticIndex: new Map(),
     speciesDisplay: new Map(),
     progress: readProgress(),
     searchAbort: null,
     speciesAbort: null,
     weatherAbort: null,
+    acousticAbort: null,
+    acousticAudio: null,
+    acousticPlayingKey: null,
     searchTimer: null,
     toastTimer: null,
     guideOpen: false,
@@ -1640,15 +1652,32 @@
     return `${location.id}:${radius}`;
   }
 
+  function setPlaceSheetExpanded(expanded) {
+    if (!els.placeCard) return;
+    els.placeCard.classList.toggle("expanded", expanded);
+    if (els.placeSheetToggle) {
+      els.placeSheetToggle.setAttribute("aria-expanded", String(expanded));
+      const label = els.placeSheetToggle.querySelector(".sheet-toggle-label");
+      if (label) label.textContent = expanded ? "Collapse details" : "Expand details";
+    }
+    if (expanded && els.placeContent) {
+      requestAnimationFrame(() => {
+        els.placeContent.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    }
+  }
+
   function selectLocation(location, { focus = true, openGuide = false, award = true } = {}) {
     state.currentLocation = location;
     state.currentSpecies = null;
     state.guideTab = "species";
+    setPlaceSheetExpanded(false);
     if (focus && globe) globe.focusOn(location.lat, location.lon);
     if (globe) globe.setSelected(location.curated ? location.id : null);
     renderPlaceCard();
     renderGuideShell();
     loadWeather(location);
+    loadAcoustic(location);
     if (!state.progress.visitedLocations.includes(location.id)) {
       state.progress.visitedLocations.push(location.id);
       if (award) awardXP(20, `Discovered ${location.name}`);
@@ -1791,16 +1820,254 @@
     }
   }
 
+  function acousticKey(location) {
+    return `acoustic:${location.id}`;
+  }
+
+  function stopAcousticPlayback() {
+    if (state.acousticAudio) {
+      state.acousticAudio.pause();
+      state.acousticAudio.src = "";
+      state.acousticAudio = null;
+    }
+    state.acousticPlayingKey = null;
+  }
+
+  function currentAcousticPackage() {
+    const location = state.currentLocation;
+    if (!location) return null;
+    return state.acousticCache.get(acousticKey(location)) || null;
+  }
+
+  function currentAcousticClip() {
+    const pack = currentAcousticPackage();
+    if (!pack?.clips?.length) return null;
+    const key = acousticKey(state.currentLocation);
+    const index = state.acousticIndex.get(key) || 0;
+    return pack.clips[index % pack.clips.length];
+  }
+
+  function sourceLabel(source) {
+    return ({
+      "local-db": "Manticore DB",
+      "local+live": "DB + live",
+      live: "Live browse",
+      api: "Acoustic API",
+      "local-db-empty": "DB miss",
+      "live-empty": "No matches",
+      error: "Unavailable"
+    })[source] || source || "Acoustic";
+  }
+
+  function renderPlaceAcoustic() {
+    if (!els.placeAcoustic) return;
+    const location = state.currentLocation;
+    const key = acousticKey(location);
+    const status = state.acousticStatus.get(key);
+    const pack = state.acousticCache.get(key);
+    if (status === "loading" && !pack) {
+      els.placeAcoustic.innerHTML = `<span class="acoustic-loading">Resolving local soundscape…</span>`;
+      return;
+    }
+    if (!pack?.clips?.length) {
+      els.placeAcoustic.innerHTML = `<span class="acoustic-error">${navigator.onLine ? "No nearby licensed sounds yet — try live browse in the field guide." : "Acoustic layer needs a network connection."}</span>`;
+      if (els.listenPlaceButton) els.listenPlaceButton.disabled = true;
+      return;
+    }
+    if (els.listenPlaceButton) els.listenPlaceButton.disabled = false;
+    const clip = currentAcousticClip();
+    const playing = state.acousticPlayingKey === key && state.acousticAudio && !state.acousticAudio.paused;
+    const eco = pack.ecosystem || {};
+    const dist = Number.isFinite(eco.distanceKm) ? `${Math.round(eco.distanceKm)} km` : "on pin";
+    els.placeAcoustic.innerHTML = `
+      <div class="acoustic-head">
+        <small>ACOUSTIC ECOSYSTEM · ${escapeHTML(sourceLabel(pack.source))}</small>
+        <span>${pack.clips.length} clips · ${escapeHTML(dist)}</span>
+      </div>
+      <div class="acoustic-now">
+        <strong>${escapeHTML(clip.taxonCommon)}</strong>
+        <em>${escapeHTML(clip.taxonScientific || eco.habitat || eco.name || "")}</em>
+      </div>
+      <div class="acoustic-controls">
+        <button type="button" id="acousticPlayToggle" class="${playing ? "playing" : ""}">${playing ? "Pause" : "Play"}</button>
+        <button type="button" id="acousticNextClip">Next</button>
+        <span class="acoustic-meta">${escapeHTML(eco.name || location.name)} · ${escapeHTML((clip.license || "").toUpperCase())}</span>
+      </div>
+      <div class="acoustic-credit"><a href="${escapeHTML(clip.sourceUrl)}" target="_blank" rel="noopener noreferrer">${escapeHTML(clip.attribution)}</a></div>`;
+    $("#acousticPlayToggle", els.placeAcoustic)?.addEventListener("click", () => toggleAcousticPlayback());
+    $("#acousticNextClip", els.placeAcoustic)?.addEventListener("click", () => stepAcousticClip(1, true));
+  }
+
+  function acousticPanelHTML(location) {
+    const key = acousticKey(location);
+    const status = state.acousticStatus.get(key);
+    const pack = state.acousticCache.get(key);
+    if (status === "loading" && !pack) {
+      return `<section class="habitat-acoustic"><div class="habitat-acoustic-head"><small>ACOUSTIC ECOSYSTEM</small><p>Resolving soundscape from Manticore DB and live archives…</p></div></section>`;
+    }
+    if (!pack?.clips?.length) {
+      return `<section class="habitat-acoustic"><div class="habitat-acoustic-head"><small>ACOUSTIC ECOSYSTEM</small><strong>No clips in range yet</strong><p>Use “Browse live soundscape” to query iNaturalist and GBIF around this pin.</p></div></section>`;
+    }
+    const eco = pack.ecosystem || {};
+    const activeIndex = state.acousticIndex.get(key) || 0;
+    return `
+      <section class="habitat-acoustic">
+        <div class="habitat-acoustic-head">
+          <small>ACOUSTIC ECOSYSTEM · ${escapeHTML(sourceLabel(pack.source)).toUpperCase()}</small>
+          <strong>${escapeHTML(eco.name || location.name)}</strong>
+          <p>${escapeHTML(eco.habitat || eco.region || "")} · ${pack.clips.length} licensed clips mapped near this place. Local DB first, live browse when missing.</p>
+        </div>
+        <div class="acoustic-track-list">
+          ${pack.clips.slice(0, 8).map((clip, index) => `
+            <button type="button" class="acoustic-track ${index === activeIndex ? "active" : ""}" data-acoustic-index="${index}">
+              <em>${String(index + 1).padStart(2, "0")}</em>
+              <span><b>${escapeHTML(clip.taxonCommon)}</b><br />${escapeHTML(clip.taxonScientific || clip.provider)}</span>
+              <span>${escapeHTML((clip.license || "").toUpperCase())}</span>
+            </button>`).join("")}
+        </div>
+      </section>`;
+  }
+
+  function bindAcousticTrackButtons(root = document) {
+    $$("[data-acoustic-index]", root).forEach((button) => {
+      button.addEventListener("click", () => {
+        const index = Number(button.dataset.acousticIndex);
+        const key = acousticKey(state.currentLocation);
+        state.acousticIndex.set(key, index);
+        playAcousticClip({ autoplay: true });
+        renderPlaceAcoustic();
+        if (state.guideOpen && state.guideTab === "habitat") renderHabitatGuide();
+      });
+    });
+  }
+
+  function stepAcousticClip(delta = 1, autoplay = false) {
+    const key = acousticKey(state.currentLocation);
+    const pack = state.acousticCache.get(key);
+    if (!pack?.clips?.length) return;
+    const next = ((state.acousticIndex.get(key) || 0) + delta + pack.clips.length) % pack.clips.length;
+    state.acousticIndex.set(key, next);
+    playAcousticClip({ autoplay: autoplay || Boolean(state.acousticAudio && !state.acousticAudio.paused) });
+    renderPlaceAcoustic();
+    if (state.guideOpen && state.guideTab === "habitat") renderHabitatGuide();
+  }
+
+  function playAcousticClip({ autoplay = true } = {}) {
+    const key = acousticKey(state.currentLocation);
+    const clip = currentAcousticClip();
+    if (!clip?.fileUrl) return;
+    stopAcousticPlayback();
+    const audio = new Audio(clip.fileUrl);
+    audio.preload = "metadata";
+    audio.addEventListener("ended", () => stepAcousticClip(1, true));
+    audio.addEventListener("error", () => {
+      showToast("This clip failed to load — trying the next one.");
+      stepAcousticClip(1, true);
+    });
+    state.acousticAudio = audio;
+    state.acousticPlayingKey = key;
+    if (autoplay) {
+      audio.play().catch(() => {
+        showToast("Tap Listen again to start audio (browser gesture required).");
+      });
+    }
+    renderPlaceAcoustic();
+    updateAcousticSyncLabel();
+  }
+
+  function toggleAcousticPlayback() {
+    const key = acousticKey(state.currentLocation);
+    const pack = state.acousticCache.get(key);
+    if (!pack?.clips?.length) {
+      loadAcoustic(state.currentLocation, { preferLive: true });
+      return;
+    }
+    if (state.acousticPlayingKey === key && state.acousticAudio) {
+      if (state.acousticAudio.paused) {
+        state.acousticAudio.play().catch(() => showToast("Unable to resume playback."));
+      } else {
+        state.acousticAudio.pause();
+      }
+      renderPlaceAcoustic();
+      return;
+    }
+    playAcousticClip({ autoplay: true });
+  }
+
+  function updateAcousticSyncLabel() {
+    if (!els.acousticSyncLabel) return;
+    const key = acousticKey(state.currentLocation);
+    const status = state.acousticStatus.get(key);
+    const pack = state.acousticCache.get(key);
+    els.refreshAcoustic?.classList.toggle("loading", status === "loading");
+    if (status === "loading") els.acousticSyncLabel.textContent = "Browsing archives…";
+    else if (pack?.clips?.length) els.acousticSyncLabel.textContent = `${pack.clips.length} clips · ${sourceLabel(pack.source)}`;
+    else els.acousticSyncLabel.textContent = "Browse live soundscape";
+  }
+
+  async function loadAcoustic(location, { preferLive = false } = {}) {
+    if (!window.ManticoreAcoustic?.resolveSoundscape) {
+      state.acousticStatus.set(acousticKey(location), "error");
+      renderPlaceAcoustic();
+      return;
+    }
+    const key = acousticKey(location);
+    if (state.acousticCache.has(key) && !preferLive) {
+      state.acousticStatus.set(key, "ready");
+      renderPlaceAcoustic();
+      updateAcousticSyncLabel();
+      if (state.guideOpen && state.guideTab === "habitat") renderHabitatGuide();
+      return;
+    }
+    state.acousticAbort?.abort();
+    const controller = new AbortController();
+    state.acousticAbort = controller;
+    state.acousticStatus.set(key, "loading");
+    renderPlaceAcoustic();
+    updateAcousticSyncLabel();
+    try {
+      const pack = await window.ManticoreAcoustic.resolveSoundscape({
+        lat: location.lat,
+        lon: location.lon,
+        biomeKey: location.biomeKey,
+        name: location.name,
+        radiusKm: preferLive ? 150 : 220,
+        preferLive,
+        signal: controller.signal
+      });
+      state.acousticCache.set(key, pack);
+      if (!state.acousticIndex.has(key)) state.acousticIndex.set(key, 0);
+      state.acousticStatus.set(key, pack.clips?.length ? "ready" : "empty");
+      if (preferLive && pack.clips?.length) {
+        showToast(`Live soundscape: ${pack.clips.length} clips near ${location.name}.`);
+      }
+    } catch (error) {
+      if (error.name !== "AbortError") {
+        console.warn(error);
+        state.acousticStatus.set(key, "error");
+      }
+    } finally {
+      if (state.currentLocation && acousticKey(state.currentLocation) === key) {
+        renderPlaceAcoustic();
+        updateAcousticSyncLabel();
+        if (state.guideOpen && state.guideTab === "habitat") renderHabitatGuide();
+        renderGuideShellMetaWeather();
+      }
+    }
+  }
+
   function renderGuideShellMetaWeather() {
     const location = state.currentLocation;
     if (!location) return;
     const biome = biomeFor(location);
     const weather = state.weatherCache.get(weatherKey(location));
+    const acoustic = state.acousticCache.get(acousticKey(location));
     const chips = [biome.label, formatCoords(location.lat, location.lon)];
     if (weather) {
       const [condition] = weatherLabel(weather.current.code);
       chips.push(`${Math.round(weather.current.temp)}° ${condition}`);
     }
+    if (acoustic?.clips?.length) chips.push(`${acoustic.clips.length} soundscape clips`);
     chips.push(location.curated ? `${location.species.length} editor spotlights` : "Live observations available");
     els.guideMeta.innerHTML = chips.map((item) => `<span>${escapeHTML(item)}</span>`).join("");
   }
@@ -1820,6 +2087,7 @@
     els.placeSummary.textContent = location.summary || biome.summary;
     els.placeStats.innerHTML = (location.stats || []).map(([label, value]) => `<span class="stat-chip"><strong>${escapeHTML(label)}</strong>${escapeHTML(value)}</span>`).join("");
     renderPlaceWeather();
+    renderPlaceAcoustic();
     const saved = state.progress.savedLocations.some((entry) => entry.id === location.id);
     els.savePlaceButton.classList.toggle("saved", saved);
     els.savePlaceButton.textContent = saved ? "✓" : "＋";
@@ -1835,6 +2103,7 @@
     els.guideSubtitle.textContent = location.subtitle || biome.summary;
     renderGuideShellMetaWeather();
     updateSyncLabel();
+    updateAcousticSyncLabel();
     renderGuideTab();
   }
 
@@ -1850,15 +2119,20 @@
 
   function openGuidePanel() {
     state.guideOpen = true;
+    setPlaceSheetExpanded(false);
+    els.placeCard?.classList.add("guide-open-hidden");
     els.guidePanel.classList.add("open");
     els.guidePanel.setAttribute("aria-hidden", "false");
     renderGuideShell();
     if (!state.currentLocation.curated && !state.liveCache.has(locationCacheKey(state.currentLocation))) loadLiveSpecies(state.currentLocation, false);
+    const scroll = $(".guide-scroll", els.guidePanel);
+    if (scroll) scroll.scrollTop = 0;
     setTimeout(() => $("#closeGuide")?.focus(), 180);
   }
 
   function closeGuidePanel() {
     state.guideOpen = false;
+    els.placeCard?.classList.remove("guide-open-hidden");
     els.guidePanel.classList.remove("open");
     els.guidePanel.setAttribute("aria-hidden", "true");
   }
@@ -1934,6 +2208,7 @@
       <div class="habitat-story">
         <div class="story-lede">${escapeHTML(lens)}</div>
         ${weatherPanelHTML(location)}
+        ${acousticPanelHTML(location)}
         <div class="habitat-meta-row">
           <div class="habitat-meta"><span>CLIMATE</span><strong>${escapeHTML(climate)}</strong></div>
           <div class="habitat-meta"><span>FIELDCRAFT</span><strong>${escapeHTML(fieldcraft)}</strong></div>
@@ -1957,6 +2232,7 @@
             </div>
           </section>` : ""}
       </div>`;
+    bindAcousticTrackButtons(els.guideContent);
     $$(".nearby-place-chip", els.guideContent).forEach((chip) => {
       chip.addEventListener("click", () => {
         const place = PLACE_GAZETTEER.find((entry) => entry.id === chip.dataset.placeId);
@@ -2358,6 +2634,14 @@
     $("#startExploring").addEventListener("click", openSearch);
     $("#useLocation").addEventListener("click", useCurrentLocation);
     $("#openGuideButton").addEventListener("click", openGuidePanel);
+    $("#listenPlaceButton")?.addEventListener("click", () => toggleAcousticPlayback());
+    els.placeSheetToggle?.addEventListener("click", () => {
+      const expanded = !els.placeCard.classList.contains("expanded");
+      setPlaceSheetExpanded(expanded);
+    });
+    // Keep sheet scroll from fighting the globe on touch devices.
+    els.placeContent?.addEventListener("touchstart", (event) => event.stopPropagation(), { passive: true });
+    els.placeContent?.addEventListener("wheel", (event) => event.stopPropagation(), { passive: true });
     $("#closeGuide").addEventListener("click", closeGuidePanel);
     $("#savePlaceButton").addEventListener("click", toggleSaveLocation);
     $("#saveSpeciesButton").addEventListener("click", toggleSaveSpecies);
@@ -2366,8 +2650,10 @@
     $("#dropPinHint").addEventListener("click", () => showToast("Click any visible point on the globe to create a field station."));
     $("#missionInfo").addEventListener("click", () => showToast("Small missions reward exploration. Progress is stored only in this browser."));
     $("#refreshLiveSpecies").addEventListener("click", () => loadLiveSpecies(state.currentLocation, true));
+    $("#refreshAcoustic")?.addEventListener("click", () => loadAcoustic(state.currentLocation, { preferLive: true }));
     els.radiusSelect.addEventListener("change", () => {
       updateSyncLabel();
+      updateAcousticSyncLabel();
       renderGuideTab();
       if (!state.currentLocation.curated) loadLiveSpecies(state.currentLocation, false);
     });
