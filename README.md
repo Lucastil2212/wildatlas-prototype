@@ -19,6 +19,10 @@ Open `http://localhost:8080`.
 | `/nestvue` | NestVue Smart Birdhouse — features + preorder |
 | `/field-node.html` | Full-viewport Field Node image |
 | `/atlas` | WildAtlas globe / habitat demo (prototype) |
+| `/api/v1/acoustic/health` | Manticore Acoustic data-service health |
+| `/api/v1/acoustic/soundscape?lat=&lon=` | Resolve ecosystem soundscape (DB → live) |
+
+WildAtlas acoustics: local DB of ~160 ecosystems / 1k+ licensed clips, with live iNaturalist + GBIF browse when a pin is outside coverage. Seed with `python3 scripts/seed_acoustic_ecosystems.py`.
 
 Business / preorders: **lucas@manticore.email**
 

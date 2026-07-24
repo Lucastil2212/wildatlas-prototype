@@ -42,6 +42,41 @@ Place-name lookup and live weather both use Open-Meteo:
 
 Current conditions and a 3-day outlook are requested for every selected location (curated journeys, dropped pins, and searched places). Open-Meteo's geocoding database is based on GeoNames. Production use should follow the current Open-Meteo and GeoNames attribution and licensing requirements.
 
+## Acoustic ecosystems (Manticore Acoustic)
+
+WildAtlas includes a place-first acoustic layer:
+
+- Local catalog: `data/acoustic-ecosystems.js` (seeded by `scripts/seed_acoustic_ecosystems.py`)
+- Client service: `data/acoustic-service.js` (`window.ManticoreAcoustic`)
+- Optional same-origin API (via `./serve.sh`):
+  - `GET /api/v1/acoustic/health`
+  - `GET /api/v1/acoustic/ecosystems`
+  - `GET /api/v1/acoustic/soundscape?lat=&lon=&radius_km=`
+
+### Providers
+
+1. **Seeded local DB** — research-grade iNaturalist sound observations near named ecosystems worldwide, filtered to Creative Commons sound licenses
+2. **Live browse (fallback)** — when a pin is outside the local DB (or the user taps “Browse live soundscape”):
+   - iNaturalist `/v1/observations?sounds=true`
+   - GBIF occurrence search `mediaType=Sound` (audio MIME / sound URLs only)
+
+### Attribution rules
+
+Every clip stores and displays:
+
+- Observer / creator attribution
+- License code
+- Source observation / occurrence URL
+- Retrieval / seed date
+
+Do not redistribute audio binaries in this repository; the prototype streams from provider CDNs. Production commercial use must respect each clip’s license (many are CC BY-NC).
+
+Regenerate the local catalog:
+
+```bash
+python3 scripts/seed_acoustic_ecosystems.py
+```
+
 ## Habitat artwork
 
 The eight biome illustrations were procedurally generated for this prototype by `generate_assets.py`. They are illustrative backdrops, not documentary photographs and not suitable as evidence for species identification.
